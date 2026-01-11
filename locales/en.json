@@ -1,0 +1,42 @@
+{
+    "angel": "Angel",
+    "haviland": "Haviland",
+    "og": "OG",
+
+    "ai": "AI",
+    "male": "Male",
+    "female": "Female",
+
+    "character": "Character",
+    "selection": "Selection",
+    "addressal": "Addressal",
+    "updated": "Updated",
+    "change": "Change",
+    "unknown": "unknown",
+    "open": "Open",
+    "menu": "Menu",
+
+    "menu_title": "%s ${ai} ${menu}",
+    "talk_to": "Talk to %s",
+    "your_message": "Your Message",
+    "ai_responding": "${ai} responding...",
+    "open_ai_menu": "${open} ${ai} ${menu}",
+    "ai_using_voice": "You are now using the %s voice.",
+    "get_random_comment": "Consult %s",
+
+    "ai_selection": "${ai} ${selection}",
+    "ai_updated": "${ai} ${updated}",
+    "invalid_ai_character": "Invalid ${ai}: '%s'. Choose '${angel}', '${haviland}', or '${og}'.",
+    "invalid_addressal_choice": "Invalid choice. Use ${male} or ${female}.",
+    "change_ai_character": "${change} ${ai} ${character}",
+    "change_addressal": "${change} ${addressal}",
+    "addressal_selection": "${addressal} ${selection}",
+    "addressal_updated": "${addressal} ${updated}",
+    "addressal_now": "The ${ai} will now refer to you as a %s.",
+
+    "command_desc_talk": "Goon with your ${ai}",
+    "command_desc_select": "Select your preferred ${ai} character",
+    "command_desc_address": "Select how your ${ai} addresses you",
+    "command_desc_random": "Consult your ${ai} for a random comment",
+    "command_desc_menu": "${open} ${ai} ${menu}"
+}

@@ -1,0 +1,332 @@
+{
+  "greeting": [
+    "hello hi hey greetings sup yo",
+    "hey there hello there hi there",
+    "how are you hows it going how you doing"
+  ],
+  "welcome": [
+    "im home im back just arrived returned",
+    "welcome home good to be back nice to be home",
+    "made it back finally here"
+  ],
+  "wake": [
+    "wake up woke up waking up just woke",
+    "wakey wakey rise and shine finally awake",
+    "im awake up and at em getting up"
+  ],
+  "morning": [
+    "good morning morning time early",
+    "sunrise breakfast bright and early",
+    "start of the day first thing"
+  ],
+  "afternoon": [
+    "good afternoon slept in late riser",
+    "overslept midday siesta nap",
+    "slept through the morning"
+  ],
+  "evening": [
+    "good evening tonight night time",
+    "ready for the night evening plans",
+    "getting dark sun going down"
+  ],
+  "drunk": [
+    "drunk wasted hammered intoxicated tipsy",
+    "buzzed plastered sloshed smashed trashed",
+    "had too much to drink been drinking"
+  ],
+  "hangover": [
+    "hungover rough morning headache",
+    "drank too much morning after recovery",
+    "need deludomol feel terrible"
+  ],
+  "visitor": [
+    "guest visitor company someone here",
+    "expecting someone whos here people arriving",
+    "we have company guests over"
+  ],
+  "door": [
+    "door doorbell knock knocking",
+    "at the door front door entrance",
+    "someone outside ringing"
+  ],
+  "birthday": [
+    "happy birthday its my birthday born today",
+    "birthday celebration another year older",
+    "birthday party special day"
+  ],
+  "celebration": [
+    "celebrate celebrating party occasion",
+    "milestone achievement victory success",
+    "time to celebrate lets celebrate"
+  ],
+  "stressed": [
+    "stressed stressful tense anxious overwhelmed",
+    "wound up uptight nervous on edge",
+    "heart racing high strung freaking out"
+  ],
+  "relax": [
+    "relax relaxing chill unwind calm",
+    "take it easy rest peaceful",
+    "destress decompress loosen up"
+  ],
+  "hair": [
+    "hair haircut new hair fresh cut trim",
+    "barber salon hairstyle hairdo",
+    "just got it cut new style"
+  ],
+  "tattoo": [
+    "tattoo ink new tattoo fresh ink",
+    "got a tattoo tats tatted up inked",
+    "body art new ink"
+  ],
+  "clothes": [
+    "clothes outfit wardrobe threads",
+    "fit drip new outfit new clothes",
+    "what im wearing dressed up attire"
+  ],
+  "appearance": [
+    "how do i look do i look good looking good",
+    "appearance how i look my look",
+    "does this suit me rate me"
+  ],
+  "attractive": [
+    "attractive hot sexy gorgeous beautiful",
+    "handsome stunning pretty fine",
+    "good looking eye candy"
+  ],
+  "compliment": [
+    "compliment praise beautiful gorgeous",
+    "love it looks good suits you perfect",
+    "amazing stunning wonderful fantastic"
+  ],
+  "vehicle": [
+    "car vehicle ride whip auto",
+    "my car my ride my vehicle",
+    "wheels motor automobile"
+  ],
+  "modified": [
+    "modified customized upgraded tuned",
+    "custom mods modifications",
+    "check out the mods new mods"
+  ],
+  "request_car": [
+    "bring the car get my car need a ride",
+    "which car should i take what should i drive",
+    "what catches your eye pick a vehicle"
+  ],
+  "choice": [
+    "choice choose pick select decide",
+    "which one what should i options",
+    "decision selection what do you think"
+  ],
+  "armory": [
+    "armory weapons room arsenal gun room",
+    "weapon storage arms depot",
+    "show me the armory"
+  ],
+  "weapons": [
+    "weapons guns firearms arms",
+    "firepower ammunition ammo",
+    "gun rifle pistol"
+  ],
+  "tactical": [
+    "tactical combat military gear",
+    "equipment tactical gear",
+    "tactical setup"
+  ],
+  "bought_weapon": [
+    "bought a weapon new gun purchased",
+    "check out my piece new firearm",
+    "just got this gun"
+  ],
+  "listening": [
+    "are you there can you hear me",
+    "listening paying attention hello",
+    "i need something"
+  ],
+  "help": [
+    "help assist assistance need help",
+    "can you help help me support",
+    "what can you do for me"
+  ],
+  "affirm": [
+    "yes yeah sure okay alright absolutely",
+    "definitely certainly sounds good agreed",
+    "lets do it im in on board"
+  ],
+  "task": [
+    "do it handle it take care of it",
+    "get it done on it complete this",
+    "task job work"
+  ],
+  "business": [
+    "business operations productivity",
+    "production boost efficiency output",
+    "speed up faster quicker"
+  ],
+  "party": [
+    "party parties throw a party lets party",
+    "party time bash social event",
+    "festivities fun celebration"
+  ],
+  "invites": [
+    "invites invitation guest list",
+    "send invites invite people",
+    "call everyone whos coming"
+  ],
+  "party_fun": [
+    "having fun everyone enjoying themselves",
+    "go wild get messy get crazy",
+    "truth or dare party games"
+  ],
+  "cleanup": [
+    "clean up tidy up mess cleaning",
+    "after party cleanup housekeeping",
+    "place is a disaster"
+  ],
+  "cleaners": [
+    "cleaners cleaning service maid",
+    "housekeeping cleaning crew",
+    "professional cleaners"
+  ],
+  "champagne": [
+    "champagne bubbly sparkling wine",
+    "bottle pop champagne",
+    "celebrate with champagne"
+  ],
+  "order": [
+    "order get me bring me",
+    "ordering request delivery",
+    "can you order"
+  ],
+  "arrived": [
+    "arrived here ready waiting",
+    "delivery arrived its here",
+    "showed up delivered"
+  ],
+  "lounging": [
+    "lounger sunbathing chilling poolside",
+    "taking it easy by the pool",
+    "what a life lazy day"
+  ],
+  "view": [
+    "view scenery vista landscape",
+    "beautiful view nice view",
+    "enjoying the view"
+  ],
+  "spa": [
+    "spa massage facial treatment pampering",
+    "wellness self care beauty therapy",
+    "spa day spa time"
+  ],
+  "breathing": [
+    "breathe breathing breath inhale exhale",
+    "breathe in breathe out deep breath",
+    "in and out"
+  ],
+  "mindfulness": [
+    "mindfulness mindful meditation zen",
+    "close your eyes present moment",
+    "let go awareness centered"
+  ],
+  "yoga": [
+    "yoga stretching poses downward dog",
+    "namaste flexibility balance",
+    "yoga mat yoga class"
+  ],
+  "chakra": [
+    "chakra energy center spiritual",
+    "root chakra activate chakra",
+    "chakra alignment"
+  ],
+  "gym": [
+    "gym working out lifting weights",
+    "gym session training fitness",
+    "hit the gym pump iron"
+  ],
+  "workout": [
+    "workout exercise routine sweat",
+    "training session physical activity",
+    "work it push yourself"
+  ],
+  "deny": [
+    "no nope nah cant wont refuse",
+    "decline not possible unable",
+    "sorry cant help"
+  ],
+  "impossible": [
+    "impossible cant do that not possible",
+    "unable wont work no way",
+    "forget it negative"
+  ],
+  "end_convo": [
+    "enough stop talking shut up",
+    "this conversation is over done",
+    "no more thats it goodbye"
+  ],
+  "defense": [
+    "defend defended protecting property",
+    "mansion defense security safe",
+    "attack repelled secured"
+  ],
+  "complete": [
+    "complete completed finished done",
+    "mission accomplished all done",
+    "wrapped up taken care of"
+  ],
+  "victory": [
+    "victory win won success",
+    "victorious triumph conquered",
+    "we won"
+  ],
+  "money": [
+    "money cash wealth riches fortune",
+    "dollars funds finances",
+    "bank account balance"
+  ],
+  "vault": [
+    "vault money room safe",
+    "secure storage treasure room",
+    "cash vault"
+  ],
+  "billionaire": [
+    "billionaire billion super rich",
+    "billionaire status loaded",
+    "made it big time mega rich"
+  ],
+  "wealthy": [
+    "wealthy rich affluent prosperous",
+    "fortune abundance net worth",
+    "so much money"
+  ],
+  "poor": [
+    "broke poor low on cash",
+    "not rich yet need more money",
+    "vault empty building wealth"
+  ],
+  "saving": [
+    "saving save savings put away",
+    "saving up building wealth",
+    "potential growing"
+  ],
+  "question": [
+    "questionmark what where when who why how",
+    "tell me explain show me whats the",
+    "can you could you would you will you"
+  ],
+  "request": [
+    "questionmark please can you could you",
+    "would you mind do me a favor",
+    "i need i want i would like"
+  ],
+  "opinion": [
+    "questionmark what do you think your opinion",
+    "how does this look what about",
+    "thoughts feedback whats your take"
+  ],
+  "suggestion": [
+    "questionmark recommend suggestion advice what should",
+    "any ideas which one recommend",
+    "best option your pick your choice"
+  ]
+}

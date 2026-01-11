@@ -1,0 +1,534 @@
+{
+  "speech_buckets": {
+    "XM25_GENERIC_HI_MALE": {
+      "gender": "male",
+      "topics": {
+        "greeting": 1.0,
+        "welcome": 0.8
+      }
+    },
+    "XM25_GENERIC_HI_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "greeting": 1.0,
+        "welcome": 0.8
+      }
+    },
+    "XM25_WAKE_UP_MALE_MORNING": {
+      "gender": "male",
+      "topics": {
+        "wake": 1.0,
+        "morning": 1.0,
+        "greeting": 0.3
+      }
+    },
+    "XM25_WAKE_UP_FEMALE_MORNING": {
+      "gender": "female",
+      "topics": {
+        "wake": 1.0,
+        "morning": 1.0,
+        "greeting": 0.3
+      }
+    },
+    "XM25_WAKE_UP_MALE_AFTERNOON": {
+      "gender": "male",
+      "topics": {
+        "wake": 1.0,
+        "afternoon": 1.0
+      }
+    },
+    "XM25_WAKE_UP_FEMALE_AFTERNOON": {
+      "gender": "female",
+      "topics": {
+        "wake": 1.0,
+        "afternoon": 1.0
+      }
+    },
+    "XM25_WAKE_UP_MALE_EVENING": {
+      "gender": "male",
+      "topics": {
+        "wake": 1.0,
+        "evening": 1.0,
+        "party": 0.3
+      }
+    },
+    "XM25_WAKE_UP_FEMALE_EVENING": {
+      "gender": "female",
+      "topics": {
+        "wake": 1.0,
+        "evening": 1.0,
+        "party": 0.3
+      }
+    },
+    "XM25_WAKE_UP_DRUNK_MALE": {
+      "gender": "male",
+      "topics": {
+        "drunk": 1.0,
+        "hangover": 0.9
+      }
+    },
+    "XM25_WAKE_UP_DRUNK_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "drunk": 1.0,
+        "hangover": 0.9
+      }
+    },
+    "XM25_GUEST_AT_DOOR_MALE": {
+      "gender": "male",
+      "topics": {
+        "visitor": 1.0,
+        "door": 0.9
+      }
+    },
+    "XM25_GUEST_AT_DOOR_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "visitor": 1.0,
+        "door": 0.9
+      }
+    },
+    "XM25_HAPPY_BIRTHDAY_MALE": {
+      "gender": "male",
+      "topics": {
+        "birthday": 1.0,
+        "celebration": 0.6
+      }
+    },
+    "XM25_HAPPY_BIRTHDAY_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "birthday": 1.0,
+        "celebration": 0.6
+      }
+    },
+    "XM25_MENTAL_STATE_MALE": {
+      "gender": "male",
+      "topics": {
+        "stressed": 1.0,
+        "relax": 0.8,
+        "spa": 0.5,
+        "yoga": 0.4
+      }
+    },
+    "XM25_MENTAL_STATE_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "stressed": 1.0,
+        "relax": 0.8,
+        "spa": 0.5,
+        "yoga": 0.4
+      }
+    },
+    "XM25_HAIRCUT_MALE": {
+      "gender": "male",
+      "topics": {
+        "hair": 1.0,
+        "appearance": 0.7,
+        "compliment": 0.5
+      }
+    },
+    "XM25_HAIRCUT_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "hair": 1.0,
+        "appearance": 0.7,
+        "compliment": 0.5
+      }
+    },
+    "XM25_TATTOO_MALE": {
+      "gender": "male",
+      "topics": {
+        "tattoo": 1.0,
+        "appearance": 0.6,
+        "compliment": 0.5
+      }
+    },
+    "XM25_TATTOO_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "tattoo": 1.0,
+        "appearance": 0.6,
+        "compliment": 0.5
+      }
+    },
+    "XM25_CLOTHES_MALE": {
+      "gender": "male",
+      "topics": {
+        "clothes": 1.0,
+        "appearance": 0.8,
+        "opinion": 0.6,
+        "compliment": 0.5,
+        "attractive": 0.4
+      }
+    },
+    "XM25_CLOTHES_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "clothes": 1.0,
+        "appearance": 0.8,
+        "opinion": 0.6,
+        "compliment": 0.5,
+        "attractive": 0.4
+      }
+    },
+    "XM25_SPA_IDLE_MALE": {
+      "gender": "male",
+      "topics": {
+        "spa": 1.0,
+        "relax": 0.9,
+        "breathing": 0.7,
+        "mindfulness": 0.6
+      }
+    },
+    "XM25_SPA_IDLE_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "spa": 1.0,
+        "relax": 0.9,
+        "breathing": 0.7,
+        "mindfulness": 0.6
+      }
+    },
+    "XM25_VEHICLE_MODIFIED_MALE": {
+      "gender": "male",
+      "topics": {
+        "vehicle": 1.0,
+        "modified": 0.9,
+        "compliment": 0.5
+      }
+    },
+    "XM25_VEHICLE_MODIFIED_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "vehicle": 1.0,
+        "modified": 0.9,
+        "compliment": 0.5
+      }
+    },
+    "XM25_ARMORY_MALE": {
+      "gender": "male",
+      "topics": {
+        "armory": 1.0,
+        "weapons": 0.9,
+        "tactical": 0.6
+      }
+    },
+    "XM25_ARMORY_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "armory": 1.0,
+        "weapons": 0.9,
+        "tactical": 0.6
+      }
+    },
+    "XM25_WEAPONS_PURCHASED_MALE": {
+      "gender": "male",
+      "topics": {
+        "bought_weapon": 1.0,
+        "weapons": 0.7,
+        "compliment": 0.5
+      }
+    },
+    "XM25_WEAPONS_PURCHASED_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "bought_weapon": 1.0,
+        "weapons": 0.7,
+        "compliment": 0.5
+      }
+    },
+    "XM25_WALL_PANEL_MALE": {
+      "gender": "male",
+      "topics": {
+        "listening": 1.0,
+        "help": 0.9,
+        "question": 0.8,
+        "request": 0.7,
+        "greeting": 0.3
+      }
+    },
+    "XM25_WALL_PANEL_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "listening": 1.0,
+        "help": 0.9,
+        "question": 0.8,
+        "request": 0.7,
+        "greeting": 0.3
+      }
+    },
+    "XM25_PRODUCTION_BOOST_MALE": {
+      "gender": "male",
+      "topics": {
+        "affirm": 1.0,
+        "task": 0.9,
+        "business": 0.8
+      }
+    },
+    "XM25_PRODUCTION_BOOST_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "affirm": 1.0,
+        "task": 0.9,
+        "business": 0.8
+      }
+    },
+    "XM25_THROW_PARTY_MALE": {
+      "gender": "male",
+      "topics": {
+        "party": 1.0,
+        "celebration": 0.8,
+        "invites": 0.6
+      }
+    },
+    "XM25_THROW_PARTY_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "party": 1.0,
+        "celebration": 0.8,
+        "invites": 0.6
+      }
+    },
+    "XM25_CLEAN_PARTY_MALE": {
+      "gender": "male",
+      "topics": {
+        "cleanup": 1.0,
+        "cleaners": 0.8,
+        "party": 0.5
+      }
+    },
+    "XM25_CLEAN_PARTY_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "cleanup": 1.0,
+        "cleaners": 0.8,
+        "party": 0.5
+      }
+    },
+    "XM25_CHAMPAGNE_ORDERED_MALE": {
+      "gender": "male",
+      "topics": {
+        "champagne": 1.0,
+        "order": 0.9,
+        "celebration": 0.5
+      }
+    },
+    "XM25_CHAMPAGNE_ORDERED_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "champagne": 1.0,
+        "order": 0.9,
+        "celebration": 0.5
+      }
+    },
+    "XM25_CHAMPAGNE_ARRIVED_MALE": {
+      "gender": "male",
+      "topics": {
+        "champagne": 1.0,
+        "arrived": 0.9
+      }
+    },
+    "XM25_CHAMPAGNE_ARRIVED_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "champagne": 1.0,
+        "arrived": 0.9
+      }
+    },
+    "XM25_SUNLOUNGER_MALE": {
+      "gender": "male",
+      "topics": {
+        "lounging": 1.0,
+        "relax": 0.8,
+        "view": 0.6
+      }
+    },
+    "XM25_SUNLOUNGER_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "lounging": 1.0,
+        "relax": 0.8,
+        "view": 0.6
+      }
+    },
+    "XM25_YOGA_MALE": {
+      "gender": "male",
+      "topics": {
+        "yoga": 1.0,
+        "chakra": 0.7,
+        "workout": 0.5
+      }
+    },
+    "XM25_YOGA_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "yoga": 1.0,
+        "chakra": 0.7,
+        "workout": 0.5
+      }
+    },
+    "XM25_GYM_MALE": {
+      "gender": "male",
+      "topics": {
+        "gym": 1.0,
+        "workout": 0.9
+      }
+    },
+    "XM25_GYM_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "gym": 1.0,
+        "workout": 0.9
+      }
+    },
+    "XM25_GENERIC_POSITIVE_MALE": {
+      "gender": "male",
+      "topics": {
+        "affirm": 1.0,
+        "help": 0.5
+      }
+    },
+    "XM25_GENERIC_POSITIVE_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "affirm": 1.0,
+        "help": 0.5
+      }
+    },
+    "XM25_GENERIC_NEGATIVE_MALE": {
+      "gender": "male",
+      "topics": {
+        "deny": 1.0,
+        "impossible": 0.8
+      }
+    },
+    "XM25_GENERIC_NEGATIVE_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "deny": 1.0,
+        "impossible": 0.8
+      }
+    },
+    "XM25_GENERIC_NEGATIVE_M_RARE": {
+      "gender": "male",
+      "topics": {
+        "end_convo": 1.0,
+        "deny": 0.6
+      }
+    },
+    "XM25_GENERIC_NEGATIVE_F_RARE": {
+      "gender": "female",
+      "topics": {
+        "end_convo": 1.0,
+        "deny": 0.6
+      }
+    },
+    "XM25_MANSION_DEFEND_COMPLETE_M": {
+      "gender": "male",
+      "topics": {
+        "defense": 1.0,
+        "complete": 0.9,
+        "victory": 0.7
+      }
+    },
+    "XM25_MANSION_DEFEND_COMPLETE_F": {
+      "gender": "female",
+      "topics": {
+        "defense": 1.0,
+        "complete": 0.9,
+        "victory": 0.7
+      }
+    },
+    "XM25_VAULT_IDLE_BILLIONAIRE_M": {
+      "gender": "male",
+      "topics": {
+        "billionaire": 1.0,
+        "wealthy": 0.9,
+        "money": 0.7,
+        "vault": 0.6
+      }
+    },
+    "XM25_VAULT_IDLE_BILLIONAIRE_F": {
+      "gender": "female",
+      "topics": {
+        "billionaire": 1.0,
+        "wealthy": 0.9,
+        "money": 0.7,
+        "vault": 0.6
+      }
+    },
+    "XM25_VAULT_IDLE_MONEY_HIGH_MALE": {
+      "gender": "male",
+      "topics": {
+        "money": 1.0,
+        "vault": 0.9,
+        "wealthy": 0.7,
+        "saving": 0.5
+      }
+    },
+    "XM25_VAULT_IDLE_MONEY_HIGH_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "money": 1.0,
+        "vault": 0.9,
+        "wealthy": 0.7,
+        "saving": 0.5
+      }
+    },
+    "XM25_VAULT_IDLE_MONEY_LOW_MALE": {
+      "gender": "male",
+      "topics": {
+        "poor": 1.0,
+        "vault": 0.7,
+        "saving": 0.6,
+        "money": 0.5
+      }
+    },
+    "XM25_VAULT_IDLE_MONEY_LOW_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "poor": 1.0,
+        "vault": 0.7,
+        "saving": 0.6,
+        "money": 0.5
+      }
+    },
+    "XM25_REQUEST_LUXURY_VEH_M": {
+      "gender": "male",
+      "topics": {
+        "request_car": 1.0,
+        "choice": 0.8,
+        "suggestion": 0.7,
+        "opinion": 0.7,
+        "vehicle": 0.6,
+        "question": 0.5
+      }
+    },
+    "XM25_REQUEST_LUXURY_VEH_F": {
+      "gender": "female",
+      "topics": {
+        "request_car": 1.0,
+        "choice": 0.8,
+        "suggestion": 0.7,
+        "opinion": 0.7,
+        "vehicle": 0.6,
+        "question": 0.5
+      }
+    },
+    "XM25_THROW_PARTY_IDLES_MALE": {
+      "gender": "male",
+      "topics": {
+        "party_fun": 1.0,
+        "party": 0.7
+      }
+    },
+    "XM25_THROW_PARTY_IDLES_FEMALE": {
+      "gender": "female",
+      "topics": {
+        "party_fun": 1.0,
+        "party": 0.7
+      }
+    }
+  }
+}

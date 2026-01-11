@@ -1,0 +1,245 @@
+Base ID,Suffix ID,Unique ID,Gender,Transcript
+XM25_ARMORY,XM25_ARMORY_FEMALE,XM25_ARMORY_FEMALE_01,female,"Sis, this is an armoury, you need some extra supplies, ammo, or anything, let me know."
+XM25_ARMORY,XM25_ARMORY_MALE,XM25_ARMORY_MALE_01,male,"Ey Homie, this is an armoury, you need some extra supplies, ammo, or anything, let me know."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_01,female,Here's your champagne Sis.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_02,female,"Ey Gang, your champagne is in the kitchen."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_03,female,"Sis, your bottle of champagne in the kitchen for you."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_04,female,I had the champagne delivered to the kitchen Sis.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_01,male,Here's your champagne Bruh.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_02,male,"Ey Gang, we got that champagne in the kitchen."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_03,male,"My Dawg, we got your bottle of champagne in the kitchen for you."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_04,male,I had the champagne delivered to the kitchen Playa.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_01,female,"Bet, we've got a bottle coming."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_02,female,"No problem, we got a bottle on the way."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_03,female,"That's a easy call, let's get that bottle here."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_04,female,"Oh for sure, what's the occassion?"
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_01,male,"Bet, we'll got a bottle coming."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_02,male,"No problem, there's a bottle on the way."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_03,male,"Easy call, let's get that bottle here."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_04,male,"Oh for sure, what's the occassion?"
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_01,female,"Hey Sis, I had the place cleaned while you was out."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_02,female,"Welcome home Sis, I had the place cleaned for you."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_03,female,"What up Queen? I had the staff clean-up. They took care of that naked body in your room too. Haha, just fucking with you. We didn't see a thing."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_04,female,"Welcome home Sis, as you can see I had the place cleaned back spotless."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_01,male,"My G, I had the place cleaned while you was out."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_02,male,"Welcome home Bruh, I had the place cleaned for you."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_03,male,"My Boy. I had the staff clean-up. They took care of that naked body in your room too. Haha, just fucking with you. We didn't see a thing."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_04,male,"Welcome home Kid, as you can see I had the place cleaned back spotless."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_01,female,That fit fresh Sis. I see you showing off them assets.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_02,female,You styling on them Queen. Looking good.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_03,female,"Sis, you should consider the fashion industry. You got some real style."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_04,female,"Okay, now you looking like money. Tough fit Sis."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_01,male,That fit fresh Bruh. Bet you can pull just about anything looking that good.
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_02,male,"Ooo, you styling on them Boy. Looking real good."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_03,male,"Bruh, you should consider the fashion industry. You got some real style."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_04,male,"Okay, now you looking like money. Tough fit Kid."
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_01,female,Welcome home Sis.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_02,female,What up Young'in?
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_03,female,Welcome back Homegirl.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_04,female,"Peace Sis, welcome in."
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_01,male,Welcome home Bruh.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_02,male,What up Young'in?
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_03,male,Welcome back Homeboy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_04,male,"Peace my guy, welcome in."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_F_RARE,XM25_GENERIC_NEGATIVE_F_RARE_01,female,"Nah, we aint even finna do that Sis."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_01,female,"Damn, I can't even do that Sis."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_02,female,"My fault Lady, I can't right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_03,female,"My bad Homegirl, that ain't available right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_04,female,"Not even gon hold you, I don't think I can do that right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_M_RARE,XM25_GENERIC_NEGATIVE_M_RARE_01,male,"Nah, we aint even finna do that Homie."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_01,male,"Damn, I can't even do that Bruh."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_02,male,"My fault Homie, I can't right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_03,male,"My bad Bruh, that ain't available right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_04,male,"I ain't even gon hold you, I don't think I can right now."
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_01,female,I got you Sis.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_02,female,No doubt Queen.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_03,female,Coming up Sis.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_04,female,"Sure Homegirl, say less."
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_01,male,I got you Bruh.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_02,male,No doubt Homie.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_03,male,Coming up Homeboy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_04,male,"For sure Homeboy, say less."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_01,female,"Yo Fam, someone's outside."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_02,female,"Sis, we got company."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_03,female,Somebody's at the door Fam.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_04,female,You expecting company Sis? Someone's outside.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_01,male,"Yo Homie, someone's outside."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_02,male,"My Man, we got company."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_03,male,Somebody's at the door Fam.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_04,male,You expecting company Bruh? Someone's outside.
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_01,female,Lifting that iron. Don't forget the legs Girl.
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_02,female,"You keep lifting like that, I'm gonna be scared of you."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_03,female,"Once you get that body right, you gotta show it off at the beach."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_04,female,And don't forget the protein shake. You gotta capitalise on those gains.
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_01,male,Lifting that iron. Don't forget leg day Partner.
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_02,male,"You keep lifting like that, they gonna be scared of you."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_03,male,"Once you get that body right, you gotta show it off at the beach."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_04,male,"Hey, don't forget that protein shake. You gotta capitalise on those gains."
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_01,female,Wooo! You look good lil Mamma. Love the new hair.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_02,female,Loving what you did Mamma. Looking beautiful as ever.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_03,female,New do? Who you? Looking real sharp Sis.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_04,female,I'm loving the new do Girl.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_01,male,Ey! That line-up looking clean my Man.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_02,male,"Damn, you clean up nice my Boy."
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_03,male,New do? Who you? Looking sharp Kid.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_04,male,I'm really loving the new cut.
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_FEMALE,XM25_HAPPY_BIRTHDAY_FEMALE_01,female,"Ey, happy G-Day Girl. Another year, another blessing. Enjoy it. Wish I could pop some bottles with you and do it big. Nothing but love."
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_MALE,XM25_HAPPY_BIRTHDAY_MALE_02,male,"Ey, happy G-Day Homie. Another year, another blessing. Enjoy it. Wish I could pop some bottles with you. Love."
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_F,XM25_MANSION_DEFEND_COMPLETE_F_01,female,I had the place straightened-out after them boys slid on you Homegirl. We good now.
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_M,XM25_MANSION_DEFEND_COMPLETE_M_01,male,Had the place straightened-out after them boys slid on you. We good now.
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_01,female,"Sis, you okay? You seem a little agitated."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_02,female,You good Queen? You seem stressed. Maybe do some yoga or something to take the edge off.
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_03,female,"Hey Sis, your energy a little off. You okay? Maybe light something up in the cigar room and chill out."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_04,female,"Hey Shortie, the spa is available if you're feeling a little wound-up."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_01,male,"Bruh, you okay? You seem a little agitated."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_02,male,You good my Man? You seem stressed. Maybe do some yoga or something to take the edge off.
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_03,male,"Bruh, your energy a little off. You okay? Maybe light something up in the cigar room and chill out."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_04,male,"Hey Homeboy, you might wanna check out the spa if you're feeling wound-up."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_01,female,"Bet, I'll get production popping."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_02,female,I'm on it. Let's get this money in.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_03,female,"No doubt, let me get the production line together."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_04,female,"I got you, I'll let your squad know."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_01,male,"Bet, I'll get production popping."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_02,male,I'm on it. Let's get this money in.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_03,male,"No doubt, let me get the production line together."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_04,male,"I got you, I'll let your squad know."
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_01,female,Now we talking. Let's get something fly for you.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_02,female,"Absolutely, what we picking for today?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_03,female,"Done deal, which joint you want? Only the best to choose from for you."
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_04,female,Which one we thinking? Can't go wrong honestly.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_01,male,"Yeah, let's get something fly for you."
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_02,male,"Absolutely, what we picking for today?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_03,male,"Done deal, which joint you want? Only the best to choose from for you."
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_04,male,Which one we thinking? Can't go wrong honestly.
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_01,female,"There you go Ladygang, go ahead and take a moment to breathe."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_02,female,What you manifesting Queen? I know it's something beautiful.
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_03,female,"Go ahead and take some deep breaths Sis, clear your mind."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_04,female,"Clearing your head, huh? Love that for you Queen."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_01,male,"There you go Gang, go ahead and take a moment to breathe."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_02,male,What you manifesting King? I know it's something beautiful.
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_03,male,"Go ahead and take some deep breaths Homie, clear your mind."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_04,male,"Clearing your head, huh? Love that for you King."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_01,female,"Hey Sis, there's a bad bitch at the door."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_02,female,"That dancer finally arrived, limber up."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_03,female,"Hey Homegirl, the dancer you ordered is outside. You ready for me to let her in?"
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_04,female,"Hey, it's a woman outside for you Sis. The dancer I think."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_01,male,"Hey Gang, there's a bad bitch at the door."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_02,male,"That dancer finally arrived, get to stretching."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_03,male,"Hey Homie, the dancer you ordered is outside. You ready for me to let her in? Go pop that pill if you got to."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_04,male,"Hey Homie, it's a woman outside for you Sis. It's the dancer I think."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_01,female,"Hey Sis, you put on that sunscreen?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_02,female,"Yeah, getting that nice tan I see."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_03,female,You know that vitamin D is always good for you.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_04,female,"Yeah Sis, kick back and relax. You deserve it, real talk."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_01,male,"Bruh, you put on that sunscreen?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_02,male,"Yeah, you getting that nice tan I see."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_03,male,"Yeah, that vitamin D is always good for you."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_04,male,"Yeah Man, kick back and relax. You deserve it, real talk."
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_01,female,"Oh, love that new ink Queen."
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_02,female,That art nice Sis. Great taste.
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_03,female,"Gotta say, you got plenty style Homegirl. Like the ink."
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_04,female,Nice tat Family. That's quality work.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_01,male,"Yeah, love that new ink King."
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_02,male,That art nice Bruh. Great taste.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_03,male,"Gotta say, your style is wild Young'in. Like the ink."
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_04,male,Nice tat my Guy. That's quality work.
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_01,female,"Hey, let's put this big-ass house to use. I'm on it Sis."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_02,female,"Oh, say less. Imma bout to have this bitch jumping Sis."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_03,female,"That's no problem, I know just what to do. Clear your schedule for a week, you gonna need to recover."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_04,female,"If there's one thing I can do, it's throw a party. Here we go."
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_01,,"What we need to turn this bi' up to another level? Weed, coke? Let's get that shit."
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_02,,First person to take they clothes off gets a thousand dollars
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_03,,"Sure wish I could drink with ya'll, it look refreshing as hell."
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_04,,"We gotta do this again next weekend, right?"
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_01,male,"Hey, let's put this big-ass house to use. I'm on it Bruh."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_02,male,"Oh, say less. Imma bout to have this bitch jumping Gang."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_03,male,"That's no problem, I know just what to do. Clear your schedule for a week, you gonna need to recover."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_04,male,"If there's one thing I can do, it's throw a party. Here we go."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_01,female,"All that, and we came from nothing."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_02,female,You the big homie now Queen.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_03,female,Who fuckin' with you now Gang? You Her.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_04,female,"Damn, almost make you cry don't it? That ain't just money, it's power."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_01,male,"All that, and we came from nothing."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_02,male,You the big homie now King.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_03,male,Who fuckin' with you now Gang? You Him.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_04,male,"Damn, almost make you cry don't it? That ain't just money, it's power."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_01,female,"Not doing too bad, huh Gang?"
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_02,female,"You gotta go blow some of this on some dancers, of the naked variety."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_03,female,"Gotta say, I'm impressed. You getting to the bag Sis."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_04,female,"You getting that chilli, that's what's up Sis."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_01,male,"Not doing too bad, huh Gang?"
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_02,male,You gotta go blow some of this cheese on some dancers of the naked variety.
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_03,male,"Gotta say, I'm impressed. You getting to the bag Gang."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_04,male,"You getting that chilli, that's what's up Bruh."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_01,female,"That chilli looking low. But ain't no thing, you'll be up in no time."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_02,female,"Hey Sis, don't sweat it, keep doing your thing, the bread gone come."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_03,female,"Hey, funds might be low but look at this mansion, gotta look on the bright side Sis."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_04,female,"Look, money aint everything - you rich in spirit Sis."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_01,male,"That chilli looking low. But ain't no thing, you'll be up in no time."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_02,male,"Man, don't sweat it, keep doing your thing, the bread gone come."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_03,male,"Hey, funds might be low but look at this mansion, gotta look on the bright side Gang."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_04,male,"Look, money aint everything - you rich in spirit Bro."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_01,female,"Sis, love what you did to the whip."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_02,female,Great mod sis. You rolling like a boss.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_03,female,These some tasteful upgrades. Good shit.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_04,female,"Sis, the whip is clean, I'm impressed."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_01,male,"Gang, love what you did to the whip."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_02,male,Great mods Kid. You rolling like a boss.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_03,male,These some tasteful upgrades. Good shit.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_04,male,"My Boy, the whip is clean, I'm impressed."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_01,female,"You was straight twisted lil Sis, a cold shower might help."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_02,female,"Welcome back from the dead Shorty, I had the cleaners take care of the vomit. Missed the toilet by a football field."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_03,female,Sup Sis? How's the hangover? JJuice in the kitchen if you up to it.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_04,female,"Looks like you had yourself a good time my G, how you feeling?"
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_01,male,"You was twisted Bruh, a cold shower might help."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_02,male,"Welcome back from the dead my Man, I had the cleaners take care of the vomit. Missed the toilet by a football field."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_03,male,What up my Man? How's the hangover? Juice in the kitchen if you up to it.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_04,male,"Looks like you had yourself a good time my G, how you feeling?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_01,female,So how was that nap Sis? I took one myself.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_02,female,What up Sis? How'd you sleep?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_03,female,"There you go, get your lazy ass up. Nah I'm fucking with you Girl, how you sleep?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_04,female,"Man, ain't nothing like a good old nap, how you feeling?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_01,female,"Yo, now that you rested - what we doing tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_02,female,What up? We outside tonight?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_03,female,"Hey Sis, looks like you got some good rest. We hitting the city tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_04,female,You got some beauty rest I see. Hitting the streets tonight?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_01,female,Morning Sis. Today gonna be a good day.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_02,female,Rise and grind Playgirl. Time to get to it.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_03,female,Grand rising Queen. Let's shine today.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_04,female,Morning Sis. Looks like you slept well.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_01,male,How was that nap my Man? I took one myself.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_02,male,What up Bruh? How'd you sleep?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_03,male,"There you go, get your lazy ass up. Nah I'm fucking with you, how you sleep?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_04,male,"Man, ain't nothing like a good old nap, how you feeling?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_01,male,"Yo, now that you rested up - what we doing tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_02,male,What up? Is we outside tonight?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_03,male,"My man, looks like you got some good rest. We hitting the city tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_04,male,You got some beauty rest I see. Hitting the streets tonight?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_01,male,Morning my Man. Today gonna be a good day.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_02,male,Rise and grind Playa. Time to get to it.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_03,male,Grand rising King. Let's shine today.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_04,male,Morning Brother. Looks like you slept well.
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_01,female,What you need Homegirl?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_02,female,How can I help?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_03,female,You need something Sis?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_04,female,Let me know what I can do Baby.
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_01,male,What you need Player?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_02,male,How can I help?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_03,male,You need something Bruh?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_04,male,Let me know what I can do Homie.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_01,female,"Okay Lover, now we got some sticks for real. Don't crash out."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_02,female,Ain't no op gonna want to clash now Homegirl. You stepping.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_03,female,"Be careful Fam, don't catch no unnecessary bodies."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_04,female,These big girl toys. You finna spin or something? Let me know.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_01,male,"Okay my Boy, now we got some sticks for real. Don't crash out."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_02,male,Ain't no op gonna want to clash now Homie. You stepping.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_03,male,"Be careful Fam, don't catch no unnecessary bodies."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_04,male,These big boy toys. You finna spin or something? Let me know.
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_01,female,"That's right Sis, stretching is good for the soul."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_02,female,"And inhale, and exhale. Inhale, exhale. Good shit."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_03,female,Yoga look good on you Homegirl.
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_04,female,"Sis, this is what life is about. Love to see it."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_01,male,"That's right Homie, stretching is good for the soul."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_02,male,"And inhale, and exhale. Inhale, exhale. Good shit."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_03,male,Yoga doing you good Homeboy.
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_04,male,"Hey Homie, this is what life is about. Love to see it."

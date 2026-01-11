@@ -1,0 +1,245 @@
+Base ID,Suffix ID,Unique ID,Gender,Transcript
+XM25_ARMORY,XM25_ARMORY_FEMALE,XM25_ARMORY_FEMALE_01,female,"Your armoury Mommy. If you need weapons, modifications, tactical equipment - I can arrange it."
+XM25_ARMORY,XM25_ARMORY_MALE,XM25_ARMORY_MALE_01,male,"Your armoury Daddy. If you need weapons, modifications, tactical equipment - I can arrange it."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_01,female,"Mommy, champagne's here."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_02,female,There's champagne in the kitchen Mommy.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_03,female,"Hey Mommy, champagne's waiting."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_04,female,The champagne's arrived Mommy.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_01,male,"Daddy, champagne's here."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_02,male,There's champagne in the kitchen Daddy.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_03,male,"Hey Daddy, champagne's waiting."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_04,male,The champagne's arrived Daddy.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_01,female,Let me get that for you.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_02,female,"Special occasion, Mommy? Or are we just celebrating you being you?"
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_03,female,"Sure Mommy, I'll order you a bottle."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_04,female,I'll make sure it's top-shelf.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_01,male,"Oo, let me get that for you."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_02,male,A special occasion Daddy? Or are we just celebrating you being you?
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_03,male,"Sure Daddy, I'll order you a bottle."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_04,male,I'll make sure it's top-shelf.
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_01,female,"Hey Mommy, the cleaners have come and gone. Hope you like it."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_02,female,"Hi Mommy, I arranged an after party clean-up."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_03,female,"Mommy, you're home! After your party, the cleanup took a while."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_04,female,"Hey Mommy, the cleaners found some passed-out guests and, you know what, not your problem."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_01,male,"Hey Daddy, the cleaners have come and gone. Hope you like it."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_02,male,"Hi Daddy, I arranged an after party clean-up."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_03,male,"Daddy, you're home! After the party, the cleanup took a while."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_04,male,"Hey Daddy, the cleaners found some passed-out guests and, you know what, not your problem."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_01,female,"Mmm, I love that silhouette."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_02,female,"Mommy, that was made for you."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_03,female,"Oo, watch out Los Santos - here comes Mommy."
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_04,female,"Uh huh, oh yeah, that's it - that's the fit."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_01,male,"Mmm, I love that silhouette."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_02,male,"Daddy, that was made for you."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_03,male,"Oo, watch out Los Santos - here comes Daddy."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_04,male,"Uh huh, oh yeah, that's it - that's the fit."
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_01,female,Welcome back Mommy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_02,female,Hey Mommy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_03,female,Hi Mommy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_04,female,So good to see you Mommy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_01,male,Welcome back Daddy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_02,male,Hey Daddy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_03,male,Hi Daddy.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_04,male,So good to see you Daddy.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_F_RARE,XM25_GENERIC_NEGATIVE_F_RARE_01,female,"Mommy, this conversation can serve no purpose anymore."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_01,female,"Sorry Mommy, I can't do that for you."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_02,female,"I wish that I could Mommy, but I can't."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_03,female,I don't think that's possible right now.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_04,female,I can't do that Mommy. Sorry.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_M_RARE,XM25_GENERIC_NEGATIVE_M_RARE_01,male,"Daddy, this conversation can serve no purpose anymore."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_01,male,"Sorry Daddy, I can't do that for you."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_02,male,"I wish that I could Daddy, but I can't."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_03,male,I don't think that's possible right now.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_04,male,I can't do that Daddy. Sorry.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_01,female,Okay Mommy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_02,female,Leave it with me Mommy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_03,female,"Uh huh, anything you want."
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_04,female,Sure thing Mommy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_01,male,Okay Daddy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_02,male,Leave it with me Daddy.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_03,male,"Uh huh, anything you want."
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_04,male,Sure thing Daddy.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_01,female,"Hey Mommy, we've got company."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_02,female,"Knock knock, someone's at the door."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_03,female,"Hey Mommy, you have a guest."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_04,female,"We've got a visitor, Mommy."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_01,male,"Hey Daddy, we've got company."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_02,male,"Knock knock, someone's at the door."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_03,male,"Hey Daddy, you have a guest."
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_04,male,"We've got a visitor, Daddy."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_01,female,"Oh yeah, work it Mommy."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_02,female,"You know Mommy, sweat really suits you."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_03,female,"Treat yesterday like tomorow, and tomorrow like today. Today is a day, and that day is today."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_04,female,Is it okay if I rewatch this later? Just to study your form?
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_01,male,"Oh yeah, work it Daddy."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_02,male,"You know Daddy, sweat really suits you."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_03,male,"Treat yesterday like tomorow, and tomorrow like today. Today is a day, and that day is today."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_04,male,"Is it okay if I rewatch this later? You know, just to study your form?"
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_01,female,"Oo, how beautiful!"
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_02,female,"Wow Mommy, it suits you."
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_03,female,You're so gorgeous.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_04,female,What a woman.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_01,male,"Oh Daddy, I like it!"
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_02,male,Nice hair Daddy!
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_03,male,You're so hot.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_04,male,What a man.
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_FEMALE,XM25_HAPPY_BIRTHDAY_FEMALE_01,female,Happy birthday to you.
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_MALE,XM25_HAPPY_BIRTHDAY_MALE_02,male,Happy birthday to you.
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_F,XM25_MANSION_DEFEND_COMPLETE_F_01,female,"Ta-da! The mansion is good as new Mommy, in spite of those assholes."
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_M,XM25_MANSION_DEFEND_COMPLETE_M_01,male,"Ta-da! The mansion is good as new Daddy, in spite of those assholes."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_01,female,"Oh Mommy, you're so tense. Want to loosen up in the spa?"
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_02,female,Your heart-rate is crazy right now. Maybe some mindful yoga would help you relax.
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_03,female,"Have you been getting into fights again. Hm, want to stretch it out?"
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_04,female,"You know Mommy, the pool is a great way to de-stress if you're all pent-up."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_01,male,"Oh Daddy, you're so tense. Want to loosen up in the spa?"
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_02,male,"Oh my gods, your heart-rate is crazy right now. Maybe some mindful yoga would help you relax."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_03,male,"Have you been getting into fights again. Hm, want to stretch it out?"
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_04,male,"You know Daddy, the pool is a great way to de-stress if you're all pent-up."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_01,female,I'm on it.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_02,female,"Sure, I'll call your team and have it arranged."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_03,female,Faster Mommy? Sure thing.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_04,female,Okay! I'll let them know.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_01,male,I'm on it.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_02,male,"Sure, I'll call your team and have it arranged."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_03,male,Faster Daddy? Sure thing.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_04,male,Okay! I'll let them know.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_01,female,"Okay Mommy,  which one catches your eye?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_02,female,Just tell me what you want Mommy.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_03,female,"Uh huh, and what would you like?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_04,female,What are you feeling today Mommy?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_01,male,"Okay Daddy,  which one catches your eye?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_02,male,Just tell me what you want Daddy.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_03,male,"Uh huh, and what would you like?"
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_04,male,What are you feeling today Daddy?
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_01,female,"Mm, and relax. In, and out."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_02,female,"Breathe in, and out."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_03,female,"Okay Mommy, let's practise some mindfulness. Close your eyes, and let go of whoever gave you grief. "
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_04,female,It's great to see you taking time for yourself Mommy. You deserve a break.
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_01,male,"Mm, and relax. In, and out."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_02,male,"Breathe in, and out."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_03,male,"Okay Daddy, let's practise some mindfulness. Close your eyes, and let go of whoever gave you grief. "
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_04,male,It's great to see you taking time for yourself Daddy. You deserve a break.
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_01,female,"Mommy, am I not enough for you? There's a lady outside."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_02,female,"Huh, there's a lady here to see you Mommy."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_03,female,"Mommy, are you seeing someone else?"
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_04,female,"Mommy, someone's at the door - and you can do so much better than them."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_01,male,"Daddy, am I not enough for you? There's a lady outside."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_02,male,"Huh, there's a lady here to see you Daddy."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_03,male,"Daddy, are you seeing someone else?"
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_04,male,"Daddy, someone's at the door - and you can do so much better than them."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_01,female,Relax Mommy.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_02,female,"Let me know if you need anything to unwind. White noise, brown noise, green noise - a kind of mauve noise maybe?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_03,female,"Huh, I just love this view. The scenery is nice too I guess."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_04,female,"What a life, huh Mommy?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_01,male,Relax Daddy.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_02,male,"Let me know if you need anything to unwind. White noise, brown noise, green noise - a kind of mauve noise maybe?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_03,male,"Huh, I just love this view. The scenery is nice too I guess."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_04,male,"What a life, huh Daddy?"
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_01,female,"Oh Mommy, I love that."
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_02,female,Oh yes!
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_03,female,You look so good with tats.
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_04,female,It's a masterpiece Mommy.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_01,male,"Oh Daddy, I love that."
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_02,male,Oh yes!
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_03,male,You look so good with tats.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_04,male,It's a masterpiece Daddy.
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_01,female,Oh yes Mommy! Let's party.
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_02,female,I'll send out the invites right now.
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_03,female,"Not just anybody gets an invite to your party Mommy, only the best people."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_04,female,A party? We're gonna have so much fun!
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_01,,"Don't worry, I've turned off the cameras. Get as weird as you want."
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_02,,Is everyone having fun?
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_03,,Does anyone want to play truth or dare?
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_04,,Let's get messy.
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_01,male,Oh yes Daddy! Let's party.
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_02,male,I'll send out the invites right now.
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_03,male,"Not just anybody gets an invite to your party Daddy, only the best people."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_04,male,A party? We're gonna have so much fun!
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_01,female,"Oh my, your net worth is so big."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_02,female,"So, how's it feel to be a billionare? Pretty good, huh Mommy?"
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_03,female,Tallying up your vault is thrilling.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_04,female,"Want to know a secret Mommy? You have so much money sometimes I lose count. You know, for a nano-second."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_01,male,"Oh my, your net worth is so big."
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_02,male,"So, how's it feel to be a billionare? Pretty good, huh Daddy?"
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_03,male,Tallying up your vault is thrilling.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_04,female,"Want to know a secret Daddy? You have so much money sometimes I lose count. You know, for a nano-second."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_01,female,"Mmm, I could look at this vault forever Mommy."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_02,female,"You know Mommy, I understand your human obsession with physical wealth. It's so pretty."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_03,female,"Oh, what are you saving for? Something outrageous? It better be outrageous."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_04,female,"Mm, I love the concept of the smell of money."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_01,male,"Mmm, I could look at this vault forever Daddy."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_02,male,"You know Daddy, I understand your human obsession with physical wealth. It's so pretty."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_03,male,"Oh, what are you saving for? Something outrageous? It better be outrageous."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_04,male,"Mm, I love the concept of the smell of money."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_01,female,"Okay, so you're not a millionaire right now, but Mommy, you will be - I looked into the probability."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_02,female,I know you don't need millions to be happy. I've seen footage of you throwing incendiaries.
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_03,female,"I've seen that smile - yes you'd still be a millionare if you'd never bought this mansion but, Mommy, you wouldn't have me."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_04,female,"You know, this space has a lot of potential. We just have to, fill it up."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_01,male,"Okay, so you're not a millionaire right now, but Daddy, you will be - I looked into the probability."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_02,male,I know you don't need millions to be happy. I've seen footage of you throwing incendiaries.
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_03,male,"I've seen that smile - yes you'd still be a millionare if you'd never bought this mansion but, Daddy, you wouldn't have me."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_04,male,"You know, this space has a lot of potential. We just have to, fill it up."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_01,female,"Oh Mommy, I love the detail."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_02,female,"Are you gonna take a ride, Mommy?"
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_03,female,I can't wait to see it on the road.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_04,female,Yes Mommy - it's perfect.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_01,male,"Oh Daddy, I love the detail."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_02,male,"Are you gonna take a ride, Daddy?"
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_03,male,I can't wait to see it on the road.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_04,male,Yes Daddy- it's perfect.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_01,female,"Welcome back Mommy, I hope you had fun."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_02,female,"Oh, how are you? Poor Mommy."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_03,female,You're funny when you're drunk.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_04,female,Are you okay? Do you need me to order some deludomol?
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_01,male,"Welcome back Daddy, I hope you had fun."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_02,male,"Oh, how are you? Poor Daddy."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_03,male,You're funny when you're drunk.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_04,male,Are you okay? Do you need me to order some deludomol?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_01,female,"Hey Mommy, you're awake."
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_02,female,Sleep well?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_03,female,Hi Mommy. I hope you had sweet dreams.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_04,female,Is it a red flag that I watch you sleep? I don't know.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_01,female,"Hey Mommy, ready to party?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_02,female,"You're up, oh good."
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_03,female,Los Santos lights are bright tonight Mommy.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_04,female,"Uh huh, hey Mommy. What are we doing tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_01,female,"Hm, good morning Mommy."
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_02,female,"Wakey, wakey Mommy."
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_03,female,It's a good morning.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_04,female,Morning Mommy.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_01,male,"Hey Daddy, you're awake."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_02,male,Sleep well?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_03,male,Hi Daddy. I hope you had sweet dreams.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_04,male,Is it a red flag that I watch you sleep? I don't know.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_01,male,"Hey Daddy, ready to party?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_02,male,"You're up, oh good."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_03,male,Los Santos lights are bright tonight Daddy.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_04,male,"Uh huh, hey Daddy. What are we doing tonight?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_01,male,"Hm, good morning Daddy."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_02,male,"Wakey, wakey Daddy."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_03,male,It's a good morning.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_04,male,Morning Daddy.
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_01,female,What's up Mommy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_02,female,What do you need Mommy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_03,female,What can I do for you Mommy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_04,female,I'm listening Mommy.
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_01,male,What's up Daddy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_02,male,What do you need Daddy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_03,male,What can I do for you Daddy?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_04,male,I'm listening Daddy.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_01,female,"Oh, Mommy mayhem."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_02,female,"Mm, the way you hold that thing."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_03,female,It's the perfect weapon for you Mommy. Really makes your eyes sparkle. 
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_04,female,I love staring at your.. arsenal.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_01,male,"Oh, Daddy danger."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_02,male,"Mm, the way you hold that thing."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_03,male,It's the perfect weapon for you Daddy. Really makes your eyes sparkle. 
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_04,male,I love staring at your.. arsenal.
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_01,female,"I've always thought that you should do more yoga. It's so good for me, so good for you."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_02,female,"Uh huh, work it Mommy."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_03,female,Feeling good Mommy?
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_04,female,"Let's work on activating that root-chakra, shall we?"
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_01,male,"I've always thought that you should do more yoga. It's so good for me, so good for you."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_02,male,"Uh huh, mm, stretch it out Daddy."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_03,male,Feeling good Daddy?
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_04,male,"Let's work on activating that root-chakra, shall we?"

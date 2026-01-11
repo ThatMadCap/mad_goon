@@ -1,0 +1,245 @@
+Base ID,Suffix ID,Unique ID,Gender,Transcript
+XM25_ARMORY,XM25_ARMORY_FEMALE,XM25_ARMORY_FEMALE_01,female,"Your armoury Ma'am. Should you need weapons, modifications or tactical equipment - I can make the arrangements."
+XM25_ARMORY,XM25_ARMORY_MALE,XM25_ARMORY_MALE_01,male,"Your armoury Sir. Should you need weapons, modifications or tactical equipment - I can make the arrangements."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_01,female,Your champagne is here Ma'am.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_02,female,"Pardon me, Ma'am. Your champagne awaits you in the kitchen."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_03,female,There is a bottle of champagne in the kitchen for you Ma'am.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_FEMALE,XM25_CHAMPAGNE_ARRIVED_FEMALE_04,female,I've had the champagne delivered to the kitchen Ma'am.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_01,male,Your champagne is here Sir.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_02,male,"Pardon me, Sir. Your champagne awaits you in the kitchen."
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_03,male,There is a bottle of champagne in the kitchen for you Sir.
+XM25_CHAMPAGNE_ARRIVED,XM25_CHAMPAGNE_ARRIVED_MALE,XM25_CHAMPAGNE_ARRIVED_MALE_04,male,I've had the champagne delivered to the kitchen Sir.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_01,female,"Of course, Ma'am. I shall send for a bottle immediately."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_02,female,"Naturally, Ma'am. There is a bottle on the way."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_03,female,I shall hand-pick the bottle for you Ma'am.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_FEMALE,XM25_CHAMPAGNE_ORDERED_FEMALE_04,female,"Celebrating something, Ma'am?"
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_01,male,"Of course, Sir. I shall send for a bottle immediately."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_02,male,"Naturally, Sir. There is a bottle on the way."
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_03,male,I shall hand-pick the bottle for you Sir.
+XM25_CHAMPAGNE_ORDERED,XM25_CHAMPAGNE_ORDERED_MALE,XM25_CHAMPAGNE_ORDERED_MALE_04,male,"Celebrating something, Sir?"
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_01,female,"Ah, welcome back Ma'am. The cleaning staff paid us a visit while you were gone."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_02,female,Welcome home Ma'am. I arranged the clean-up.
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_03,female,"Ah, Ma'am. I took the liberty of sending in a cleaning crew following your soiree."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_FEMALE,XM25_CLEAN_PARTY_FEMALE_04,female,Welcome back to your exceptionally clean home Ma'am.
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_01,male,"Ah, welcome back Sir. The cleaning staff paid us a visit while you were gone."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_02,male,Welcome home Sir. I arranged the clean-up.
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_03,male,"Ah, Sir. I took the liberty of sending in a cleaning crew following your soiree."
+XM25_CLEAN_PARTY,XM25_CLEAN_PARTY_MALE,XM25_CLEAN_PARTY_MALE_04,male,Welcome back to your exceptionally clean home Sir.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_01,female,You have a unique sense of fashion Ma'am.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_02,female,Excellent outfit Ma'am.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_03,female,Ma'am fashionistas around the world are green with envy.
+XM25_CLOTHES,XM25_CLOTHES_FEMALE,XM25_CLOTHES_FEMALE_04,female,"That outfit screams Los Santos entrepreneur, to put it mildly Ma'am."
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_01,male,You have a unique sense of fashion Sir.
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_02,male,Excellent outfit Sir.
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_03,male,Ma'am fashionistas around the world are green with envy.
+XM25_CLOTHES,XM25_CLOTHES_MALE,XM25_CLOTHES_MALE_04,male,"That outfit screams Los Santos entrepreneur, to put it mildly Sir."
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_01,female,Welcome home Ma'am.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_02,female,"Ah, hello Ma'am."
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_03,female,Welcome back Ma'am.
+XM25_GENERIC_HI,XM25_GENERIC_HI_FEMALE,XM25_GENERIC_HI_FEMALE_04,female,Greetings Ma'am.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_01,male,Welcome home Sir.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_02,male,"Ah, hello Sir."
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_03,male,Welcome back Sir.
+XM25_GENERIC_HI,XM25_GENERIC_HI_MALE,XM25_GENERIC_HI_MALE_04,male,Greetings Sir.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_F_RARE,XM25_GENERIC_NEGATIVE_F_RARE_01,female,"Ma'am, this conversation can serve no purpose anymore."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_01,female,I'm sorry Ma'am - that's not possible.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_02,female,I'm afraid I can't do that Ma'am.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_03,female,"Apologies Ma'am, but I'm unable to do that right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_FEMALE,XM25_GENERIC_NEGATIVE_FEMALE_04,female,"If only Ma'am, but I'm afraid that's quite impossible."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_M_RARE,XM25_GENERIC_NEGATIVE_M_RARE_01,male,"Sir, this conversation can serve no purpose anymore."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_01,male,I'm sorry Sir - that's not possible.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_02,male,I'm afraid I can't do that Sir.
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_03,male,"Apologies Sir, but I'm unable to do that right now."
+XM25_GENERIC_NEGATIVE,XM25_GENERIC_NEGATIVE_MALE,XM25_GENERIC_NEGATIVE_MALE_04,male,"If only Sir, but I'm afraid that's quite impossible."
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_01,female,Of course Ma'am.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_02,female,Right away Ma'am.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_03,female,Very good Ma'am.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_FEMALE,XM25_GENERIC_POSITIVE_FEMALE_04,female,Naturally Ma'am.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_01,male,Of course Sir.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_02,male,Right away Sir.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_03,male,Very good Sir.
+XM25_GENERIC_POSITIVE,XM25_GENERIC_POSITIVE_MALE,XM25_GENERIC_POSITIVE_MALE_04,male,Naturally Sir.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_01,female,Pardon me Ma'am. You have a guest.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_02,female,There's a caller for you Ma'am.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_03,female,We have a guest at the door Ma'am.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_FEMALE,XM25_GUEST_AT_DOOR_FEMALE_04,female,Were you expecting company Ma'am?
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_01,male,Pardon me Sir. You have a guest.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_02,male,There's a caller for you Sir.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_03,male,We have a guest at the door Sir.
+XM25_GUEST_AT_DOOR,XM25_GUEST_AT_DOOR_MALE,XM25_GUEST_AT_DOOR_MALE_04,male,Were you expecting company Sir?
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_01,female,"That's it Ma'am, pump away."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_02,female,"I shall add the following markers to your profile, Ma'am. Tenacious, formidable, big and beefy."
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_03,female,"According to my statistics, seventy per cent of San Andrean billionaires have a regular fitness regime. Seventy percent are also psychopathic. Food for thought, Ma'am!"
+XM25_GYM,XM25_GYM_FEMALE,XM25_GYM_FEMALE_04,female,"Look at you go ma'm, you are crushing it today!"
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_01,male,"That's it Sir, pump away."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_02,male,"I shall add the following markers to your profile, Sir. Tenacious, formidable, big and beefy."
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_03,male,"According to my statistics, seventy per cent of San Andrean billionaires have a regular fitness regime. Seventy percent are also psychopathic. Food for thought, Sir!"
+XM25_GYM,XM25_GYM_MALE,XM25_GYM_MALE_04,male,"Look at you go Sir, you are crushing it today!"
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_01,female,A beautiful style Ma'am.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_02,female,Stunning as always Ma'am.
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_03,female,"Where has the mistress of the house gone? Haha, that was a joke Ma'am. I'd know your thermal image anywhere."
+XM25_HAIRCUT,XM25_HAIRCUT_FEMALE,XM25_HAIRCUT_FEMALE_04,female,Truly a sight to behold.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_01,male,"My goodness, you're a new man Sir."
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_02,male,Excellent choice Sir.
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_03,male,"Where has the master of the house gone? Haha, that was a joke Sir. I'd know your thermal image anywhere."
+XM25_HAIRCUT,XM25_HAIRCUT_MALE,XM25_HAIRCUT_MALE_04,male,Very sharp Sir.
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_FEMALE,XM25_HAPPY_BIRTHDAY_FEMALE_01,female,"A very happy birthday Ma'am. Truly the most special of days. Had I hands, I would gladly shake yours. Congratulations once again."
+XM25_HAPPY_BIRTHDAY,XM25_HAPPY_BIRTHDAY_MALE,XM25_HAPPY_BIRTHDAY_MALE_02,male,"A very happy birthday Sir. Truly the most important of days. Had I hands, I would gladly shake yours. Congratulations once again."
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_F,XM25_MANSION_DEFEND_COMPLETE_F_01,female,"Don't worry Ma'am, I have dealt with the damage caused by those thugs."
+XM25_MANSION_DEFEND_COMPLETE,XM25_MANSION_DEFEND_COMPLETE_M,XM25_MANSION_DEFEND_COMPLETE_M_01,male,"Don't worry Sir, I have dealt with the damage caused by those thugs."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_01,female,Ma'am are you aware that your heart-rate is rather high? Perhaps a dip in the pool might help you relax?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_02,female,On edge today Ma'am? Might I recommend some yoga?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_03,female,I'm picking up on some anger today Ma'am. How about some yoga?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_FEMALE,XM25_MENTAL_STATE_FEMALE_04,female,"Remember Ma'am, the spa is available if you're feeling a little wound-up."
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_01,male,Sir are you aware that your heart-rate is rather high? Perhaps a dip in the pool might help you relax?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_02,male,On edge today Sir? Might I recommend some yoga?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_03,male,I'm picking up on some anger today Sir. How about some yoga?
+XM25_MENTAL_STATE,XM25_MENTAL_STATE_MALE,XM25_MENTAL_STATE_MALE_04,male,"Remember Sir, the spa is available if you're feeling a little wound-up."
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_01,female,I'll see it done Ma'am.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_02,female,I'll inform your business at once Ma'am.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_03,female,Very good Ma'am. I'll make the arrangements.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_FEMALE,XM25_PRODUCTION_BOOST_FEMALE_04,female,Right away Ma'am.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_01,male,I'll see it done Sir.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_02,male,I'll inform your business at once Sir.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_03,male,Very good Sir. I'll make the arrangements.
+XM25_PRODUCTION_BOOST,XM25_PRODUCTION_BOOST_MALE,XM25_PRODUCTION_BOOST_MALE_04,male,Right away Sir.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_01,female,Of course - perhaps something from this selection?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_02,female,And what would Ma'am like to ride in today?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_03,female,Only the finest vehicles for you Ma'am.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_F,XM25_REQUEST_LUXURY_VEH_F_04,female,Which would you prefer Ma'am?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_01,male,Of course - perhaps something from this selection?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_02,male,And what would Sir like to ride in today?
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_03,male,Only the finest vehicles for you Sir.
+XM25_REQUEST_LUXURY_VEH,XM25_REQUEST_LUXURY_VEH_M,XM25_REQUEST_LUXURY_VEH_M_04,male,Which would you prefer Sir?
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_01,female,"Take some deep, restorative breaths Ma'am."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_02,female,"Try visualising your happy place Ma'am. A private spa in a lavish mansion, for example."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_03,female,"Should you require an alm Ma'am, I am equipped with an exceptionally resonant bass."
+XM25_SPA_IDLE,XM25_SPA_IDLE_FEMALE,XM25_SPA_IDLE_FEMALE_04,female,Grounding yourself Ma'am? Very good.
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_01,male,"Take some deep, restorative breaths Sir."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_02,male,"Try visualising your happy place Sir. A private spa in a lavish mansion, for example."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_03,male,"Should you require an alm Sir, I am equipped with an exceptionally resonant bass."
+XM25_SPA_IDLE,XM25_SPA_IDLE_MALE,XM25_SPA_IDLE_MALE_04,male,Grounding yourself Sir? Very good.
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_01,female,"Pardon me Ma'am, there is a woman at the door."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_02,female,A guest for you Ma'am.
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_03,female,"I think it best you let your guest in Ma'am, she may catch a chill outside."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_FEMALE,XM25_STRIPPER_ARRIVED_FEMALE_04,female,A lady to see you Ma'am.
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_01,male,"Pardon me Sir, there is a woman at the door."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_02,male,A guest for you Sir.
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_03,male,"I think it best you let your guest in Sir, she may catch a chill outside."
+XM25_STRIPPER_ARRIVED,XM25_STRIPPER_ARRIVED_MALE,XM25_STRIPPER_ARRIVED_MALE_04,male,A lady to see you Sir.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_01,female,Catching some rays Ma'am?
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_02,female,How glad I am to see you relaxing Ma'am.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_03,female,"Quite the view, isn't it Ma'am?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_FEMALE,XM25_SUNLOUNGER_FEMALE_04,female,"Yes, do put your feet up Ma'am. You deserve it."
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_01,male,Catching some rays Sir?
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_02,male,How glad I am to see you relaxing Sir.
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_03,male,"Quite the view, isn't it Sir?"
+XM25_SUNLOUNGER,XM25_SUNLOUNGER_MALE,XM25_SUNLOUNGER_MALE_04,male,"Yes, do put your feet up Sir. You deserve it."
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_01,female,A masterpiece Ma'am.
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_02,female,Excellent Ma'am. Really draws the eye.
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_03,female,Very impressive Ma'am.
+XM25_TATTOO,XM25_TATTOO_FEMALE,XM25_TATTOO_FEMALE_04,female,"Hm, yes. Adds a touch of class Ma'am."
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_01,male,A masterpiece Sir.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_02,male,Excellent Sir. Really draws the eye.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_03,male,Very impressive Sir.
+XM25_TATTOO,XM25_TATTOO_MALE,XM25_TATTOO_MALE_04,male,"Hm, yes. Adds a touch of class Sir."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_01,female,"Of course Ma'am. I shall invite the guests, and warn the neighbours."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_02,female,"Certainly Ma'am, we shall have quite the party."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_03,female,"Of course Ma'am, consider this your party pad."
+XM25_THROW_PARTY,XM25_THROW_PARTY_FEMALE,XM25_THROW_PARTY_FEMALE_04,female,A party Ma'am? Wonderful.
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_01,,"Pardon me, does anyone require any libations, nibbles, illegal substances perhaps?"
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_02,,What fun!
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_03,, I do have a drunk setting - but I think it's best I spare the guests that experience.
+XM25_THROW_PARTY,XM25_THROW_PARTY_IDLES,XM25_THROW_PARTY_IDLES_04,,"Well, this is quite the bash isn't it?"
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_01,male,"Of course Sir. I shall invite the guests, and warn the neighbours."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_02,male,"Certainly Sir, we shall have quite the party."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_03,male,"Of course Sir, consider this your party pad."
+XM25_THROW_PARTY,XM25_THROW_PARTY_MALE,XM25_THROW_PARTY_MALE_04,male,A party Sir? Wonderful.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_01,female,Admiring your billions Ma'am?
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_02,female,Very impressive Ma'am.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_03,female,I believe billions puts you in the Los Santos big league Ma'am. You are the upper of upper-crusts.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_F,XM25_VAULT_BILLIONAIRE_F_04,female,"It is quite a sight, isn't it Ma'am?"
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_01,male,Admiring your billions Sir?
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_02,male,Very impressive Sir.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_03,male,I believe billions puts you in the Los Santos big league Ma'am. You are the upper of upper-crusts.
+XM25_VAULT_BILLIONAIRE,XM25_VAULT_BILLIONAIRE_M,XM25_VAULT_BILLIONAIRE_M_04,male,"It is quite a sight, isn't it Sir?"
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_01,female,A very respectful amount Ma'am.
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_02,female,How does it feel to be a millionaire Ma'am?
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_03,female,"I applaud your fiscal tenacity Ma'am, I really do."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_F,XM25_VAULT_IDLE_MONEY_HIGH_F_04,female,It is an admirable amount Ma'am.
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_01,male,A very respectful amount Sir.
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_02,male,How does it feel to be a millionaire Sir?
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_03,male,"I applaud your fiscal tenacity Sir, I really do."
+XM25_VAULT_IDLE_MONEY_HIGH,XM25_VAULT_IDLE_MONEY_HIGH_M,XM25_VAULT_IDLE_MONEY_HIGH_M_04,male,It is an admirable amount Sir.
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_01,female,"Never fear Ma'am, you'll make your millions again."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_02,female,"It is a little empty, Ma'am. But you did buy a mansion after all."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_03,female,"It must be hard, no longer being a millionare Ma'am. A very human struggle."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_F,XM25_VAULT_IDLE_MONEY_LOW_F_04,female,"Vault might not be bursting at the brim Ma'am, but that's because your wealth is tied up in physical assets."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_01,male,"Never fear Sir, you'll make your millions again."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_02,male,"It is a little empty, Sir. But you did buy a mansion after all."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_03,male,"It must be hard, no longer being a millionare Sir. A very human struggle."
+XM25_VAULT_IDLE_MONEY_LOW,XM25_VAULT_IDLE_MONEY_LOW_M,XM25_VAULT_IDLE_MONEY_LOW_M_04,male,"Vault might not be bursting at the brim Sir, but that's because your wealth is tied up in physical assets."
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_01,female,A great improvement Ma'am.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_02,female,Are you going to take it for a spin Ma'am?
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_03,female,An excellent addition Ma'am.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_FEMALE,XM25_VEHICLE_MODIFIED_FEMALE_04,female,Attention to detail is everything Ma'am.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_01,male,A great improvement Sir.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_02,male,Are you going to take it for a spin Sir?
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_03,male,An excellent addition Sir.
+XM25_VEHICLE_MODIFIED,XM25_VEHICLE_MODIFIED_MALE,XM25_VEHICLE_MODIFIED_MALE_04,male,Attention to detail is everything Sir.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_01,female,Might I suggest a shower Ma'am?
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_02,female,"Do not worry Ma'am, I cleaned the vomit."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_03,female,How's the head Ma'am?
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_FEMALE,XM25_WAKE_UP_DRUNK_FEMALE_04,female,No judgement from me Ma'am. Judgement is not within my dataset.
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_01,male,Might I suggest a shower Sir?
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_02,male,"Do not worry Sir, I cleaned the vomit."
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_03,male,How's the head Sir?
+XM25_WAKE_UP_DRUNK,XM25_WAKE_UP_DRUNK_MALE,XM25_WAKE_UP_DRUNK_MALE_04,male,No judgement from me Sir. Judgement is not within my dataset.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_01,female,Good afternoon Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_02,female,"Ah, hello Ma'am. Sleep well?"
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_03,female,I trust you slept well Ma'am?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_AFTERNOON,XM25_WAKE_UP_FEMALE_AFTERNOON_04,female,Nothing refreshes like an afternoon nap Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_01,female,"Ah, good evening Ma'am."
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_02,female,Ready for a night of frivolity Ma'am?
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_03,female,The city awaits you Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_EVENING,XM25_WAKE_UP_FEMALE_EVENING_04,female,Well rested Ma'am? I calculated that you enjoyed seventy percent deep sleep.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_01,female,Good morning Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_02,female,Rise and shine Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_03,female,Up and at 'em Ma'am.
+XM25_WAKE_UP,XM25_WAKE_UP_FEMALE_MORNING,XM25_WAKE_UP_FEMALE_MORNING_04,female,"Ah, good morning Ma'am."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_01,male,Good afternoon Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_02,male,"Ah, hello Sir. Sleep well?"
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_03,male,I trust you slept well Sir?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_AFTERNOON,XM25_WAKE_UP_MALE_AFTERNOON_04,male,Nothing refreshes like an afternoon nap Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_01,male,"Ah, good evening Sir."
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_02,male,Ready for a night of frivolity Sir?
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_03,male,The city awaits you Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_EVENING,XM25_WAKE_UP_MALE_EVENING_04,male,Well rested Sir? I calculated that you enjoyed seventy percent deep sleep.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_01,male,Good morning Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_02,male,Rise and shine Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_03,male,Up and at 'em Sir.
+XM25_WAKE_UP,XM25_WAKE_UP_MALE_MORNING,XM25_WAKE_UP_MALE_MORNING_04,male,"Ah, good morning Sir."
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_01,female,How can I assist you Ma'am?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_02,female,May I help you Ma'am?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_03,female,Do you have a request Ma'am?
+XM25_WALL_PANEL,XM25_WALL_PANEL_FEMALE,XM25_WALL_PANEL_FEMALE_04,female,Ask away Ma'am.
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_01,male,How can I assist you Sir?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_02,male,May I help you Sir?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_03,male,Do you have a request Sir?
+XM25_WALL_PANEL,XM25_WALL_PANEL_MALE,XM25_WALL_PANEL_MALE_04,male,Ask away Sir.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_01,female,Will that be used directly Ma'am?
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_02,female,I would hate to be the next person to argue with you Ma'am.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_03,female,"My guidelines forbid me from acts of violence Ma'am, but I assure you, you have my full support."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_FEMALE,XM25_WEAPONS_PURCHASED_FEMALE_04,female,"Ah, quite the instrument Ma'am."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_01,male,Will that be used directly Sir?
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_02,male,I would hate to be the next person to argue with you Sir.
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_03,male,"My guidelines forbid me from acts of violence Sir, but I assure you, you have my full support."
+XM25_WEAPONS_PURCHASED,XM25_WEAPONS_PURCHASED_MALE,XM25_WEAPONS_PURCHASED_MALE_04,male,"Ah, quite the instrument Sir."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_01,female,"That's right Ma'am, clear your mind of those psychotic thoughts, all that stress."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_02,female,"And inhale, and exhale. Inhale, exhale."
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_03,female,You're looking very limber today Ma'am.
+XM25_YOGA,XM25_YOGA_FEMALE,XM25_YOGA_FEMALE_04,female,Ma'am you are a shining example of tranquility.
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_01,male,"That's right Sir, clear your mind of those psychotic thoughts, all that stress."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_02,male,"And inhale, and exhale. Inhale, exhale."
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_03,male,You're looking very limber today Sir.
+XM25_YOGA,XM25_YOGA_MALE,XM25_YOGA_MALE_04,male,Sir you are a shining example of tranquility.
