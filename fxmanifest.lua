@@ -4,7 +4,7 @@ use_experimental_fxv2_oal 'yes'
 game 'gta5'
 
 name 'mad_goon'
-version '0.0.0'
+version '1.0.0'
 description 'Talk to your AI Concierge'
 author 'MadCap'
 
