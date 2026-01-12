@@ -137,7 +137,7 @@ local function talk(source, message, isNetworked, location)
     local minScoreThreshold = sharedConfig.nlp.thresholds.score.minimum
 
     local isFallback = (highestFinalScore < minScoreThreshold)
-    local topic = isFallback or res.topic
+    local topic = res.topic
 
     if not bestBucket or isFallback then
         bestBucket = (genderTarget == 'male') and 'XM25_GENERIC_NEGATIVE_MALE' or 'XM25_GENERIC_NEGATIVE_FEMALE'
