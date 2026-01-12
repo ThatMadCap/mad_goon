@@ -10,6 +10,7 @@ local lower = string.lower
 local SetResourceKvp = SetResourceKvp
 local GetResourceKvpString = GetResourceKvpString
 local IsPedMale = IsPedMale
+local exports = exports
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()

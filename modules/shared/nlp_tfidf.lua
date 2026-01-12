@@ -23,6 +23,7 @@ local tostring = tostring
 local ipairs = ipairs
 local pairs = pairs
 local type = type
+local exports = exports
 
 -- Local Variables -------------------------------------------------
 local model = nil

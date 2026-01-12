@@ -18,6 +18,7 @@ local math = math
 local random = math.random
 local TriggerClientEvent = TriggerClientEvent
 local GetCurrentResourceName = GetCurrentResourceName
+local exports = exports
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
