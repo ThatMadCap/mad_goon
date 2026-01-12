@@ -38,5 +38,9 @@
   "command_desc_select": "Select your preferred ${ai} character",
   "command_desc_address": "Select how your ${ai} addresses you",
   "command_desc_random": "Consult your ${ai} for a random comment",
-  "command_desc_menu": "${open} ${ai} ${menu}"
+  "command_desc_menu": "${open} ${ai} ${menu}",
+
+  "fork_detected": "Detected fork by '%s', skipping version check",
+  "not_author": "You did not make this %s",
+  "resource_name_changed": "Please do not rename the resource. Change it from '%s' back to 'mad_goon'"
 }

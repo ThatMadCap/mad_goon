@@ -6,6 +6,7 @@ game('gta5')
 name('mad_goon')
 version('1.0.1')
 description('Talk to your AI Concierge')
+repository('ThatMadCap/mad_goon')
 author('MadCap')
 
 -- https://madcap-scripts.tebex.io

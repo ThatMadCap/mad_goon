@@ -7,14 +7,54 @@ local serverConfig = lib.require('config.server')
 local logs = lib.require('modules.server.logs')
 
 -- Localised Functions ----------------------------------------------
-local AddEventHandler = AddEventHandler
+local string = string
+local gsub = string.gsub
+local match = string.match
 local GetCurrentResourceName = GetCurrentResourceName
 local TriggerClientEvent = TriggerClientEvent
+local GetResourceMetadata = GetResourceMetadata
+local AddEventHandler = AddEventHandler
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
 
 -- Functions ------------------------------------------------------
+---Checks resource metadata for cheeky gits
+local function checkResourceMeta()
+    local currentAuthor = GetResourceMetadata(resourceName, 'author', 0)
+    assert(currentAuthor == 'MadCap', locale('not_author', currentAuthor or 'unknown'))
+
+    local currentResourceName = GetResourceMetadata(resourceName, 'name', 0)
+    assert(currentResourceName == 'mad_goon', locale('resource_name_changed', currentResourceName or 'unknown'))
+end
+
+---Checks if the resource is a fork
+---@return boolean isFork Whether the resource is a fork
+---@return string repo The repository string (owner/repo)
+---@return string owner The repository owner
+local function isFork()
+    local originalRepo = 'ThatMadCap/mad_goon'
+
+    local repo = GetResourceMetadata(resourceName, 'repository', 0) or originalRepo
+    repo = gsub(repo, 'https?://github%.com/', '')
+
+    local owner = match(repo, '^([^/]+)/')
+
+    return repo ~= originalRepo, repo, owner
+end
+
+---Performs version check unless forked
+local function versionCheck()
+    local forked, repo, owner = isFork()
+
+    if forked then
+        lib.print.warn(locale('fork_detected', owner))
+        return
+    end
+
+    lib.versionCheck(repo)
+end
+
 ---Broadcast speech to nearby players
 ---@param src number Source player
 ---@param data SpeechData
@@ -58,6 +98,9 @@ end)
 
 -- Initialisation -----------------------------------------------------
 local function init()
+    versionCheck()
+    checkResourceMeta()
+
     if not nlp.isModelReady() then
         nlp.initNLP()
     end
@@ -68,8 +111,6 @@ local function init()
 
     commands.initCommands()
 end
-
-lib.versionCheck('ThatMadCap/mad_goon')
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onResourceStart', function(resName)
