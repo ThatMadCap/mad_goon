@@ -60,7 +60,7 @@ local function createLog(name, title, color, tagEveryone, message, messagelabel,
     local tag = tagEveryone or false
 
     if not webhooks[name] then
-        lib.print.warn("Tried to call a log that isn't configured with the name of " .. name)
+        lib.print.warn('Tried to call a log that is not configured: ' .. name)
         return
     end
 
