@@ -28,12 +28,13 @@ local resourceName = GetCurrentResourceName()
 
 -- Event Registration ------------------------------------------------
 -- Handles playing voice response
-RegisterNetEvent(resourceName .. ':client:playVoice', function(data)
+---@param data SpeechData
+RegisterNetEvent(resourceName .. ':client:playVoice', function(data, message)
     if not data then
         return
     end
 
-    speech.playResponse(data)
+    speech.playResponse(data, message)
 end)
 
 -- Handles setting character
@@ -42,7 +43,11 @@ RegisterNetEvent(resourceName .. ':client:setAI', function(character, location)
         return
     end
 
-    state.setCharacter(character)
+    local success = state.setCharacter(character)
+    if not success then
+        return
+    end
+
     speech.playSpeech('XM25_GENERIC_HI', character, state.getAddressal(), location)
     target.updateTargets()
     object.updateObjectForCharacter(character)
@@ -54,7 +59,11 @@ RegisterNetEvent(resourceName .. ':client:setAddressal', function(addressal, loc
         return
     end
 
-    state.setAddressal(addressal)
+    local success = state.setAddressal(addressal)
+    if not success then
+        return
+    end
+
     speech.playSpeech('XM25_GENERIC_POSITIVE', state.getCharacter(), addressal, location)
 end)
 
@@ -173,7 +182,7 @@ end
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onClientResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 
@@ -181,7 +190,7 @@ AddEventHandler('onClientResourceStart', function(resName)
 end)
 
 AddEventHandler('onResourceStop', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 

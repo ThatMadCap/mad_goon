@@ -18,6 +18,7 @@ local math = math
 local random = math.random
 local TriggerClientEvent = TriggerClientEvent
 local GetCurrentResourceName = GetCurrentResourceName
+local exports = exports
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
@@ -111,9 +112,10 @@ end
 ---Processes player input through NLP and triggers voice response (central talking point)
 ---@param source number Client source
 ---@param message string Message to process
----@param location? any Optional location data to pass to client
+---@param isNetworked boolean Whether to play for nearby players
+---@param location? LocationInput Optional location data to pass to client
 ---@return boolean success
-local function talk(source, message, location)
+local function talk(source, message, isNetworked, location)
     if not nlp.isModelReady() then
         lib.print.warn('NLP model not ready')
         return false
@@ -126,26 +128,28 @@ local function talk(source, message, location)
     end
 
     local clientState = lib.callback.await(resourceName .. ':client:getState', source)
-    local genderTarget = clientState?.isMale and 'male' or 'female'
     local clientHour = clientState?.hour
 
     local res = nlp.classifyToTopic(input)
+    local genderTarget = clientState?.isMale and 'male' or 'female'
     local timeContext = getTimeContext(clientHour)
-
     local bestBucket, highestFinalScore = pickBestBucket(res.scores, voiceLines.speech_buckets, genderTarget, timeContext)
 
     local minScoreThreshold = sharedConfig.nlp.thresholds.score.minimum
-    if not bestBucket or highestFinalScore < minScoreThreshold then
+    local isFallback = (highestFinalScore < minScoreThreshold)
+
+    if not bestBucket or isFallback then
         bestBucket = (genderTarget == 'male') and 'XM25_GENERIC_NEGATIVE_MALE' or 'XM25_GENERIC_NEGATIVE_FEMALE'
         lib.print.debug(format('Fallback triggered for: "%s" (Score: %.2f)', input, highestFinalScore))
     end
 
+    local topic = res.topic
     TriggerClientEvent(resourceName .. ':client:playVoice', source, {
-        topic = (highestFinalScore < minScoreThreshold) and 'fallback' or res.topic,
+        topic = topic,
         speechName = bestBucket,
-        message = message,
+        isNetworked = isNetworked,
         location = location,
-    })
+    }, message)
 
     if serverConfig.logs.talk.enabled then
         logs.talk(source, message)

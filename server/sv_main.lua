@@ -9,9 +9,22 @@ local logs = lib.require('modules.server.logs')
 -- Localised Functions ----------------------------------------------
 local AddEventHandler = AddEventHandler
 local GetCurrentResourceName = GetCurrentResourceName
+local TriggerClientEvent = TriggerClientEvent
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
+
+-- Functions ------------------------------------------------------
+---Broadcast speech to nearby players
+---@param src number Source player
+---@param data SpeechData
+local function broadcastSpeech(src, data)
+    if not serverConfig.sound.enableNetworked then
+        return
+    end
+
+    TriggerClientEvent(resourceName .. ':client:playSpeechAtLocation', -1, src, data)
+end
 
 -- Callbacks -------------------------------------------------------
 -- Get enabled features
@@ -37,15 +50,10 @@ lib.callback.register(resourceName .. ':server:getRandomLine', function(source)
 end)
 
 -- Event Registration ------------------------------------------------
--- Broadcast speech to nearby players
-RegisterNetEvent(resourceName .. ':server:playSpeech')
-AddEventHandler(resourceName .. ':server:playSpeech', function(data)
-    if not serverConfig.sound.enableNetworked then
-        return
-    end
-
-    local src = source
-    TriggerClientEvent(resourceName .. ':client:playSpeechAtLocation', -1, src, data)
+---Handle playing speech from client
+---@param data SpeechData
+RegisterNetEvent(resourceName .. ':server:playSpeech', function(data)
+    broadcastSpeech(source, data)
 end)
 
 -- Initialisation -----------------------------------------------------
@@ -65,7 +73,7 @@ lib.versionCheck('ThatMadCap/mad_goon')
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 

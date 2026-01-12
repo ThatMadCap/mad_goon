@@ -44,7 +44,7 @@ local function tokenise(normalised)
         term = gsub(term, '\'$', '')
 
         if #term > 1 and not sharedConfig.nlp.stopwords[term] then
-        	tokens[#tokens + 1] = term
+            tokens[#tokens + 1] = term
         end
     end
 
@@ -57,7 +57,7 @@ end
 local function countTerms(tokens)
     local counts = {}
     for _, term in ipairs(tokens) do
-    	counts[term] = (counts[term] or 0) + 1
+        counts[term] = (counts[term] or 0) + 1
     end
     return counts
 end
@@ -76,10 +76,10 @@ end
 local function dotProduct(a, b)
     local sum = 0.0
     for term, wa in pairs(a) do
-    	local wb = b[term]
-    	if wb then
-    		sum = sum + wa * wb
-    	end
+        local wb = b[term]
+        if wb then
+            sum = sum + wa * wb
+        end
     end
 
     return sum
@@ -91,7 +91,7 @@ end
 local function vectorNorm(vec)
     local sum = 0.0
     for _, w in pairs(vec) do
-    	sum = sum + (w * w)
+        sum = sum + (w * w)
     end
 
     return sqrt(sum)
@@ -127,7 +127,7 @@ end
 ---@return boolean isOffset True if the value is an offset table {x, y, z}
 local function isOffset(v)
     return type(v) == 'table' and
-            type(v[1]) == 'number' and type(v[2]) == 'number' and type(v[3]) == 'number'
+        type(v[1]) == 'number' and type(v[2]) == 'number' and type(v[3]) == 'number'
 end
 
 ---Get coords offset from player based on heading

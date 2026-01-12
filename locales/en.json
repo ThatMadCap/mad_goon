@@ -27,7 +27,7 @@
   "ai_selection": "${ai} ${selection}",
   "ai_updated": "${ai} ${updated}",
   "invalid_ai_character": "Invalid ${ai}: '%s'. Choose '${angel}', '${haviland}', or '${og}'.",
-  "invalid_addressal_choice": "Invalid choice. Use ${male} or ${female}.",
+  "invalid_addressal_choice": "Invalid choice '%s'. Use ${male} or ${female}.",
   "change_ai_character": "${change} ${ai} ${character}",
   "change_addressal": "${change} ${addressal}",
   "addressal_selection": "${addressal} ${selection}",

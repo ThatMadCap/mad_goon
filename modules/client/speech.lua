@@ -12,13 +12,13 @@ local type = type
 local GetEntityCoords = GetEntityCoords
 local vector3 = vector3
 local PlayAmbientSpeechFromPositionNative = PlayAmbientSpeechFromPositionNative
+local exports = exports
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
 
 -- Functions --------------------------------------------------------
 ---Resolve location for speech playback
----@alias LocationInput nil|vector3|number|string|{x:number,y:number,z:number}|number[]
 ---@param location? LocationInput Location to resolve
 ---@return vector3 coords Resolved world coordinates
 local function resolveLocation(location)
@@ -137,36 +137,36 @@ end
 ---@param speechName string Base speech name
 ---@param character CharacterName Character voice to use
 ---@param addressal Addressal Player's addressal preference
----@param location? vector3|string|table Optional location for speech
-local function playSpeech(speechName, character, addressal, location)
-    assert(type(speechName) == 'string', 'speechName must be a string')
-    assert(type(character) == 'string', 'character must be a string')
-    assert(constants.isValidCharacter(character), 'invalid character name: ' .. tostring(character))
-    assert(type(addressal) == 'string', 'addressal must be a string')
-    assert(constants.isValidAddressal(addressal), 'invalid addressal: ' .. tostring(addressal))
-
+---@param isNetworked boolean Whether to play for nearby players
+---@param location? LocationInput Optional location for speech playback
+local function playSpeech(speechName, character, addressal, isNetworked, location)
     local baseName = getBaseSpeechName(speechName)
     local finalName = resolveSpeechName(baseName, addressal)
     local voiceName = constants.getVoiceName(character)
     local finalLocation = resolveLocation(location)
 
-    -- this client
     PlayAmbientSpeechFromPositionNative(finalName, voiceName, finalLocation.x, finalLocation.y, finalLocation.z, constants.speechParams.default)
+    lib.print.debug(format('Playing Speech: "%s" | Location: %s | Voice: "%s"', finalName, tostring(finalLocation), voiceName))
 
-    -- nearby clients
+    if isNetworked == nil then
+        isNetworked = true
+    end
+
+    if not isNetworked then
+        return
+    end
+
     TriggerServerEvent(resourceName .. ':server:playSpeech', {
         speechName = finalName,
         voiceName = voiceName,
         location = finalLocation,
         speechParams = constants.speechParams.default,
     })
-
-    lib.print.debug(format('Playing Speech: "%s" | Location: %s | Voice: "%s"', finalName, tostring(finalLocation), voiceName))
 end
 
 ---Play voice response for an intent/topic
----@param data table Data containing speechName, topic, location
-local function playResponse(data)
+---@param data SpeechData
+local function playResponse(data, message)
     if not data.speechName then
         return
     end
@@ -183,7 +183,7 @@ local function playResponse(data)
             'AI: "%s" | Responding to: "%s" | Message: "%s" | Topic: "%s"',
             utils.capital(currentCharacter),
             utils.capital(currentAddressal),
-            data.message,
+            message or 'no message',
             utils.capital(data.topic)
         )
     )
@@ -198,26 +198,27 @@ local function playResponse(data)
         duration = sharedConfig.notify.duration,
     })
 
-    playSpeech(data.speechName, currentCharacter, currentAddressal, data.location)
+    playSpeech(data.speechName, currentCharacter, currentAddressal, data.isNetworked, data.location)
 end
 
 ---Send a message to the AI and get a voice response (routes to server NLP processing)
 ---@param message string The message to send to the AI
+---@param isNetworked boolean Whether to play for nearby players
 ---@param location? LocationInput Optional location for speech playback (defaults to player ped)
 ---@return boolean success Whether the request was successful
-local function talk(message, location)
+local function talk(message, isNetworked, location)
     if not message or type(message) ~= 'string' or #message == 0 then
         lib.print.warn('talk: Invalid message')
         return false
     end
 
-    local success = lib.callback.await(resourceName .. ':server:talk', false, message, location)
+    local success = lib.callback.await(resourceName .. ':server:talk', false, message, isNetworked, location)
 
     return success or false
 end
 
 ---Plays a random voice line
-local function playRandomLine(location)
+local function playRandomLine(isNetworked, location)
     local speechName = lib.callback.await(resourceName .. ':server:getRandomLine', false)
     if not speechName then
         lib.print.warn('Failed to get random line')
@@ -227,7 +228,7 @@ local function playRandomLine(location)
     local currentCharacter = state.getCharacter()
     local currentAddressal = state.getAddressal()
 
-    playSpeech(speechName, currentCharacter, currentAddressal, location)
+    playSpeech(speechName, currentCharacter, currentAddressal, isNetworked, location)
 end
 
 -- Exports -----------------------------------------------------------

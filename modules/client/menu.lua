@@ -5,6 +5,9 @@ local state = lib.require('modules.client.state')
 local utils = lib.require('modules.shared.utils')
 local speech = lib.require('modules.client.speech')
 
+-- Localised Functions ----------------------------------------------
+local exports = exports
+
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
 local submenusRegistered = false
