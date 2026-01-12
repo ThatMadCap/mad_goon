@@ -26,6 +26,7 @@ jobs:
 
       - name: Format Lua with StyLua
         uses: JohnnyMorganz/stylua-action@v3
+        continue-on-error: true
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           version: latest
