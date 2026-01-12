@@ -146,7 +146,7 @@ View Online:
 
 ## Debug
 
-Debug prints utilise [ox_lib prints](coxdocs.dev/ox_lib/Modules/Print/Shared). To enable, enter in your console:
+Debug prints utilise [ox_lib prints](https://coxdocs.dev/ox_lib/Modules/Print/Shared). To enable, enter in your console:
 
 ```
 set ox:printlevel debug
