@@ -1,4 +1,4 @@
-fx_version('cerulean')
+fx_version('1.0.1')
 lua54('yes')
 use_experimental_fxv2_oal('yes')
 game('gta5')
