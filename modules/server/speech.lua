@@ -112,8 +112,9 @@ end
 ---@param source number Client source
 ---@param message string Message to process
 ---@param location? any Optional location data to pass to client
+---@param isNetworked boolean Whether to play for nearby players
 ---@return boolean success
-local function talk(source, message, location)
+local function talk(source, message, isNetworked, location)
     if not nlp.isModelReady() then
         lib.print.warn('NLP model not ready')
         return false
@@ -144,6 +145,7 @@ local function talk(source, message, location)
         topic = (highestFinalScore < minScoreThreshold) and 'fallback' or res.topic,
         speechName = bestBucket,
         message = message,
+        isNetworked = isNetworked,
         location = location,
     })
 
