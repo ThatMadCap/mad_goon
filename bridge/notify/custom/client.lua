@@ -2,5 +2,5 @@
 ---Sends a notification
 ---@param data table notification data
 function ClientNotify.Notify(data)
-    print(json.encode(data))
+    lib.print.error('ClientNotify.Notify not implemented for custom notify')
 end

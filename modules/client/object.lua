@@ -1,6 +1,5 @@
 -- Imports ----------------------------------------------------
-local clientConfig = lib.require 'config.client'
-local constants = lib.require 'modules.shared.constants'
+local constants = lib.require('modules.shared.constants')
 
 -- Localised Functions ------------------------------------
 local string = string
@@ -129,9 +128,17 @@ end
 ---@param data table Object data
 ---@return boolean success Whether the object was created successfully
 local function addObject(data)
-    if not data.id then return false end
-    if not data.model then return false end
-    if not data.coords then return false end
+    if not data.id then
+        return false
+    end
+
+    if not data.model then
+        return false
+    end
+
+    if not data.coords then
+        return false
+    end
 
     if objects[data.id] then
         return false
@@ -152,7 +159,7 @@ local function addObject(data)
         canClimb = data.canClimb,
         distance = data.distance or 400.0,
         target = data.target,
-        resource = GetInvokingResource() or GetCurrentResourceName()
+        resource = GetInvokingResource() or GetCurrentResourceName(),
     }
 
     objects[data.id] = obj
@@ -166,7 +173,7 @@ local function addObject(data)
             end,
             onExit = function()
                 deleteEntity(obj)
-            end
+            end,
         })
     else
         createEntity(obj)
@@ -180,7 +187,9 @@ end
 ---@return boolean success Whether the object was removed successfully
 local function removeObject(id)
     local obj = getObject(id)
-    if not obj then return false end
+    if not obj then
+        return false
+    end
 
     if obj.point then
         obj.point:remove()
@@ -199,7 +208,9 @@ end
 ---@return boolean success Whether the object was updated successfully
 local function updateObject(id, data)
     local obj = getObject(id)
-    if not obj then return false end
+    if not obj then
+        return false
+    end
 
     local needsRecreate = false
 
@@ -222,7 +233,7 @@ local function updateObject(id, data)
                 end,
                 onExit = function()
                     deleteEntity(obj)
-                end
+                end,
             })
         end
     end
@@ -253,7 +264,10 @@ end
 ---Update all objects to use model for character
 ---@param character CharacterName
 local function updateObjectForCharacter(character)
-    if not character then return end
+    if not character then
+        return
+    end
+
     for id, obj in pairs(getObjects()) do
         local isTV = obj.model and find(obj.model, 'mansiontv')
 
@@ -283,7 +297,6 @@ end
 ---@return table<string, ManagedObject> nearby The objects found within the area
 local function getObjectsInArea(coords, distance)
     local nearby = {}
-
     for id, obj in pairs(objects) do
         if #(obj.coords - coords) <= distance then
             nearby[id] = obj
@@ -302,6 +315,7 @@ local function getObjectByEntity(entity)
             return id
         end
     end
+
     return nil
 end
 

@@ -92,9 +92,9 @@ return {
                 coords = vec3(443.87, 212.86, 103.37),
                 size = vec3(0.5, 0.5, 0.5),
                 rotation = 72.81,
-                debug = false
+                debug = false,
             },
-        }
+        },
     },
 
     -- UI Theme Settings ------------------------------------
@@ -111,27 +111,27 @@ return {
         characters = {
             angel = {
                 colour = '#ff6f91',
-                icon = 'fas fa-user-nurse'
+                icon = 'fas fa-user-nurse',
             },
             haviland = {
                 colour = '#8B48D3',
-                icon = 'fas fa-user-tie'
+                icon = 'fas fa-user-tie',
             },
             og = {
                 colour = '#1964D3',
-                icon = 'fas fa-user-secret'
+                icon = 'fas fa-user-secret',
             },
         },
         -- Addressal themes
         addressals = {
             male = {
                 colour = '#3498db',
-                icon = 'fa-solid fa-mars'
+                icon = 'fa-solid fa-mars',
             },
             female = {
                 colour = '#e91e63',
-                icon = 'fa-solid fa-venus'
-            }
-        }
+                icon = 'fa-solid fa-venus',
+            },
+        },
     },
 }

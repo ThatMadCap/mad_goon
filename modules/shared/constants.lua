@@ -14,14 +14,14 @@ local pairs = pairs
 local validCharacters = {
     ['angel'] = true,
     ['haviland'] = true,
-    ['og'] = true
+    ['og'] = true,
 }
 
 ---Valid addressal options
 ---@type table<Addressal, boolean>
 local validAddressals = {
     ['male'] = true,
-    ['female'] = true
+    ['female'] = true,
 }
 
 ---Character to voice name mapping
@@ -29,13 +29,13 @@ local validAddressals = {
 local characterVoices = {
     ['angel'] = 'XM25_AISECRETARY',
     ['haviland'] = 'XM25_AIBUTLER',
-    ['og'] = 'XM25_AIGANG'
+    ['og'] = 'XM25_AIGANG',
 }
 
 ---Speech parameters
 ---@type table<string, string>
 local speechParams = {
-    default = 'SPEECH_PARAMS_FORCE'
+    default = 'SPEECH_PARAMS_FORCE',
 }
 
 ---Character tablet model mappings
@@ -63,6 +63,7 @@ local function getCharacterList()
     for name in pairs(validCharacters) do
         list[#list + 1] = name
     end
+
     return list
 end
 
@@ -73,6 +74,7 @@ local function getAddressalList()
     for name in pairs(validAddressals) do
         list[#list + 1] = name
     end
+
     return list
 end
 
@@ -120,7 +122,6 @@ return {
     validAddressals = validAddressals,
     characterTabletModels = characterTabletModels,
     characterTVModels = characterTVModels,
-    logColours = logColours,
     isValidCharacter = isValidCharacter,
     isValidAddressal = isValidAddressal,
     getVoiceName = getVoiceName,

@@ -1,16 +1,22 @@
-ClientInput = {}
+-- Imports --------------------------------------
+local config = lib.require('config.shared')
 
+-- Localised Functions --------------------------
 local GetResourceState = GetResourceState
 local ipairs = ipairs
 
+-- Global Variables -----------------------------
+ClientInput = {}
+
+-- Local Variables ------------------------------
 local inputs = {
-    {name = 'ox_lib', bridge = 'ox'},
+    { name = 'ox_lib', bridge = 'ox' },
 }
 
 local inputFound = false
-local config = lib.require('config.shared')
 local selectedInput = config.input or 'ox_lib'
 
+-- Logic ----------------------------------------
 for _, resource in ipairs(inputs) do
     if resource.name == selectedInput and (resource.name == 'ox_lib' or GetResourceState(resource.name) == 'started') then
         lib.load(('bridge.input.%s.client'):format(resource.bridge))

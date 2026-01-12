@@ -8,7 +8,7 @@ function ClientMenu.Open(data)
         menu = data.menu,
         canClose = data.canClose,
         onExit = data.onExit,
-        options = data.options
+        options = data.options,
     })
 
     lib.showContext(data.id)
@@ -27,6 +27,6 @@ function ClientMenu.AlertDialog(data)
         content = data.content,
         centered = data.centered,
         cancel = data.cancel,
-        labels = data.labels
+        labels = data.labels,
     })
 end

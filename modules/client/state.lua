@@ -1,8 +1,8 @@
 -- Imports ---------------------------------------------------------
-local sharedConfig = lib.require 'config.shared'
-local clientConfig = lib.require 'config.client'
-local constants = lib.require 'modules.shared.constants'
-local utils = lib.require 'modules.shared.utils'
+local sharedConfig = lib.require('config.shared')
+local clientConfig = lib.require('config.client')
+local constants = lib.require('modules.shared.constants')
+local utils = lib.require('modules.shared.utils')
 
 -- Localised Functions ---------------------------------------------
 local string = string
@@ -23,6 +23,7 @@ local function normaliseCharacterName(name)
     if constants.validCharacters[lowered] then
         return lowered
     end
+
     return nil
 end
 
@@ -34,6 +35,7 @@ local function normaliseAddressal(addressal)
     if constants.validAddressals[lowered] then
         return lowered
     end
+
     return nil
 end
 
@@ -45,6 +47,7 @@ local function getCharacter()
     if kvp and constants.isValidCharacter(kvp) then
         return kvp
     end
+
     return clientConfig.defaultCharacter
 end
 
@@ -55,6 +58,7 @@ local function getAddressal()
     if kvp and constants.isValidAddressal(kvp) then
         return kvp
     end
+
     return IsPedMale(cache.ped) and 'male' or 'female'
 end
 
@@ -62,8 +66,13 @@ end
 ---@param character CharacterName 'angel', 'haviland', or 'og'
 ---@return boolean success
 local function setCharacter(character)
-    if not character then return false end
-    if not constants.isValidCharacter(character) then return false end
+    if not character then
+        return false
+    end
+
+    if not constants.isValidCharacter(character) then
+        return false
+    end
 
     local normalised = normaliseCharacterName(character)
     local theme = utils.getTheme('characters', normalised)
@@ -75,7 +84,7 @@ local function setCharacter(character)
             icon = theme.icon,
             iconColor = theme.colour,
             type = 'error',
-            duration = sharedConfig.notify.duration
+            duration = sharedConfig.notify.duration,
         })
         return false
     end
@@ -86,10 +95,11 @@ local function setCharacter(character)
         icon = theme.icon,
         iconColor = theme.colour,
         type = 'success',
-        duration = sharedConfig.notify.duration
+        duration = sharedConfig.notify.duration,
     })
 
     SetResourceKvp(resourceName .. ':character', normalised)
+
     return true
 end
 
@@ -97,8 +107,13 @@ end
 ---@param addressal Addressal 'male' or 'female'
 ---@return boolean success
 local function setAddressal(addressal)
-    if not addressal then return false end
-    if not constants.isValidAddressal(addressal) then return false end
+    if not addressal then
+        return false
+    end
+
+    if not constants.isValidAddressal(addressal) then
+        return false
+    end
 
     local normalised = normaliseAddressal(addressal)
     local addrTheme = utils.getTheme('addressals', normalised)
@@ -110,7 +125,7 @@ local function setAddressal(addressal)
             icon = addrTheme.icon,
             iconColor = addrTheme.colour,
             type = 'error',
-            duration = sharedConfig.notify.duration
+            duration = sharedConfig.notify.duration,
         })
         return false
     end
@@ -121,10 +136,11 @@ local function setAddressal(addressal)
         icon = addrTheme.icon,
         iconColor = addrTheme.colour,
         type = 'success',
-        duration = sharedConfig.notify.duration
+        duration = sharedConfig.notify.duration,
     })
 
     SetResourceKvp(resourceName .. ':addressal', normalised)
+
     return true
 end
 

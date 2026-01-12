@@ -1,13 +1,18 @@
+-- Localised Functions --------------------------
+local GetResourceState = GetResourceState
+local ipairs = ipairs
+
+-- Global Variables -----------------------------
 ClientTarget = {}
 
-local GetResourceState = GetResourceState
-
+-- Local Variables ------------------------------
 local targets = {
-    {name = 'ox_target', bridge = 'ox'},
+    { name = 'ox_target', bridge = 'ox' },
 }
 
 local targetFound = false
 
+-- Logic ----------------------------------------
 for _, resource in ipairs(targets) do
     if GetResourceState(resource.name) == 'started' then
         lib.load(('bridge.target.%s.client'):format(resource.bridge))

@@ -1,18 +1,24 @@
-ServerNotify = {}
+-- Imports --------------------------------------
+local config = lib.require('config.shared')
 
+-- Localised Functions --------------------------
 local GetResourceState = GetResourceState
 local ipairs = ipairs
 
+-- Global Variables -----------------------------
+ServerNotify = {}
+
+-- Local Variables ------------------------------
 local notify = {
-    {name = 'ox_lib', bridge = 'ox'},
-    {name = 'qb-core', bridge = 'qb'},
-    {name = 'mad-thoughts', bridge = 'mad'},
+    { name = 'ox_lib', bridge = 'ox' },
+    { name = 'qb-core', bridge = 'qb' },
+    { name = 'mad-thoughts', bridge = 'mad' },
 }
 
 local notifyFound = false
-local config = lib.require('config.shared')
 local selectedNotify = config.notify.type or 'ox_lib'
 
+-- Logic ----------------------------------------
 for _, resource in ipairs(notify) do
     if resource.name == selectedNotify and GetResourceState(resource.name) == 'started' then
         lib.load(('bridge.notify.%s.server'):format(resource.bridge))

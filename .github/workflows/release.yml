@@ -1,64 +1,76 @@
 name: Release
 
 on:
-    push:
-        tags:
-            - "v*.*.*"
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
-    create-release:
-        name: Build and Create Tagged Release
-        runs-on: ubuntu-latest
-        steps:
-            - name: Install archive tools
-              run: sudo apt install zip
+  create-release:
+    name: Build and Create Tagged Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install archive tools
+        run: sudo apt install zip
 
-            - name: Checkout source code
-              uses: actions/checkout@v2
-              with:
-                  fetch-depth: 0
-                  ref: ${{ github.event.repository.default_branch }}
+      - name: Checkout source code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
 
-            - name: Bump manifest version
-              run: node .github/actions/bump-manifest-version.js
-              env:
-                TGT_RELEASE_VERSION: ${{ github.ref_name }}
+      - name: Format code with Prettier
+        run: |
+          npm install -g prettier
+          npx prettier --write "**/*.{js,json,md}"
 
-            - name: Push manifest change
-              uses: EndBug/add-and-commit@v8
-              with:
-                add: fxmanifest.lua
-                push: true
-                author_name: Manifest Bumper
-                author_email: 41898282+github-actions[bot]@users.noreply.github.com
-                message: "chore: bump manifest version to ${{ github.ref_name }}"
+      - name: Format Lua with StyLua
+        uses: JohnnyMorganz/stylua-action@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          args: .
 
-            - name: Update tag ref
-              uses: EndBug/latest-tag@latest
-              with:
-                tag-name: ${{ github.ref_name }}
+      - name: Bump manifest version
+        run: node .github/actions/bump-manifest-version.js
+        env:
+          TGT_RELEASE_VERSION: ${{ github.ref_name }}
 
-            - name: Bundle files
-              run: |
-                  ls
-                  mkdir -p ./temp/mad_goon
-                  cp LICENSE.md README.md fxmanifest.lua ./temp/mad_goon/ || true
-                  for d in bridge client server config data modules locales docs; do
-                    if [ -d "$d" ]; then
-                      cp -r "$d" ./temp/mad_goon/
-                    fi
-                  done
-                  find ./temp -type d -empty -delete
-                  cd ./temp && zip -r ../mad_goon.zip ./mad_goon
+      - name: Push manifest change
+        uses: EndBug/add-and-commit@v8
+        with:
+          add: fxmanifest.lua
+          push: true
+          author_name: Manifest Bumper
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'chore: bump manifest version to ${{ github.ref_name }}'
 
-            - name: Create Release
-              uses: "marvinpinto/action-automatic-releases@v1.2.1"
-              id: auto_release
-              with:
-                repo_token: "${{ secrets.GITHUB_TOKEN }}"
-                title: ${{ github.ref_name }}
-                prerelease: false
-                files: mad_goon.zip
-              env:
-                CI: false
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update tag ref
+        uses: EndBug/latest-tag@latest
+        with:
+          tag-name: ${{ github.ref_name }}
+
+      - name: Bundle files
+        run: |
+          ls
+          mkdir -p ./temp/mad_goon
+          cp LICENSE.md README.md fxmanifest.lua ./temp/mad_goon/ || true
+          for d in bridge client server config data modules locales docs; do
+            if [ -d "$d" ]; then
+              cp -r "$d" ./temp/mad_goon/
+            fi
+          done
+          find ./temp -type d -empty -delete
+          cd ./temp && zip -r ../mad_goon.zip ./mad_goon
+
+      - name: Create Release
+        uses: 'marvinpinto/action-automatic-releases@v1.2.1'
+        id: auto_release
+        with:
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
+          title: ${{ github.ref_name }}
+          prerelease: false
+          files: mad_goon.zip
+        env:
+          CI: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

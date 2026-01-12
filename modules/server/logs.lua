@@ -1,5 +1,5 @@
 -- Imports ---------------------------------------------------------
-local serverConfig = lib.require 'config.server'
+local serverConfig = lib.require('config.server')
 
 -- Localised Functions ----------------------------------------------
 local os = os
@@ -58,7 +58,12 @@ local logQueue = {} ---@type table<string, table[]> Queue for logs to be posted
 local function createLog(name, title, color, tagEveryone, message, messagelabel, message2, messagelabel2)
     local postData = {}
     local tag = tagEveryone or false
-    if not webhooks[name] then lib.print.warn('Tried to call a log that isn\'t configured with the name of ' .. name) return end
+
+    if not webhooks[name] then
+        lib.print.warn("Tried to call a log that isn't configured with the name of " .. name)
+        return
+    end
+
     local webHook = webhooks[name] ~= '' and webhooks[name] or webhooks['default']
     local embedData = {
         {
@@ -81,21 +86,28 @@ local function createLog(name, title, color, tagEveryone, message, messagelabel,
                     ['name'] = messagelabel2 or '',
                     ['value'] = message2 or '',
                     ['inline'] = false,
-                }
+                },
             },
-        }
+        },
     }
 
-    if not logQueue[name] then logQueue[name] = {} end
-    logQueue[name][#logQueue[name] + 1] = {webhook = webHook, data = embedData}
+    if not logQueue[name] then
+        logQueue[name] = {}
+    end
+
+    logQueue[name][#logQueue[name] + 1] = { webhook = webHook, data = embedData }
 
     if #logQueue[name] >= 10 then
         if tag then
-            postData = {username = username, content = tagType, embeds = {}}
+            postData = { username = username, content = tagType, embeds = {} }
         else
-            postData = {username = username, embeds = {}}
+            postData = { username = username, embeds = {} }
         end
-        for i = 1, #logQueue[name] do postData.embeds[#postData.embeds + 1] = logQueue[name][i].data[1] end
+
+        for i = 1, #logQueue[name] do
+            postData.embeds[#postData.embeds + 1] = logQueue[name][i].data[1]
+        end
+
         PerformHttpRequest(logQueue[name][1].webhook, function() end, 'POST', encode(postData), { ['Content-Type'] = 'application/json' })
         logQueue[name] = {}
     end
@@ -105,11 +117,11 @@ end
 local function postLogs()
     for name, queue in pairs(logQueue) do
         if #queue > 0 then
-            local postData = {username = username, embeds = {}}
+            local postData = { username = username, embeds = {} }
             for i = 1, #queue do
                 postData.embeds[#postData.embeds + 1] = queue[i].data[1]
             end
-            PerformHttpRequest(queue[1].webhook, function() end, 'POST', encode(postData), {['Content-Type'] = 'application/json'})
+            PerformHttpRequest(queue[1].webhook, function() end, 'POST', encode(postData), { ['Content-Type'] = 'application/json' })
             logQueue[name] = {}
         end
     end
@@ -119,7 +131,7 @@ end
 ---@param source number Client source
 ---@param message string Message to log
 local function talk(source, message)
-        if (source) then
+    if source then
         local playerName = GetPlayerName(source)
         local identifiers = GetPlayerIdentifiers(source)
         local idMap = {
@@ -129,14 +141,16 @@ local function talk(source, message)
             fivem = nil,
             xbl = nil,
             live = nil,
-            ip = nil
+            ip = nil,
         }
+
         for _, id in ipairs(identifiers) do
             local prefix, value = match(id, '(.-):(.*)')
             if idMap[prefix] == nil then
                 idMap[prefix] = id
             end
         end
+
         local formattedIdentifiers = format(
             [[
                 **Server ID:** %s
@@ -148,7 +162,7 @@ local function talk(source, message)
                 **Live:** %s
                 **IP:** %s
             ]],
-        tostring(source),
+            tostring(source),
             idMap.steam or 'N/A',
             idMap.license or 'N/A',
             idMap.discord or 'N/A',
@@ -157,6 +171,7 @@ local function talk(source, message)
             idMap.live or 'N/A',
             idMap.ip or 'N/A'
         )
+
         createLog(
             'talk',
             playerName .. ' sent message to AI',

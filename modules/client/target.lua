@@ -1,10 +1,9 @@
 -- Imports ---------------------------------------------------------
-local clientConfig = lib.require 'config.client'
-local state = lib.require 'modules.client.state'
-local speech = lib.require 'modules.client.speech'
-local utils = lib.require 'modules.shared.utils'
-local menu = lib.require 'modules.client.menu'
-local object = lib.require 'modules.client.object'
+local clientConfig = lib.require('config.client')
+local state = lib.require('modules.client.state')
+local speech = lib.require('modules.client.speech')
+local utils = lib.require('modules.shared.utils')
+local object = lib.require('modules.client.object')
 
 -- Localised Functions ----------------------------------------------
 local TriggerEvent = TriggerEvent
@@ -52,12 +51,14 @@ local function targetOptions()
                     label = locale('your_message'),
                     required = true,
                     min = 1,
-                    max = 500
-                }
+                    max = 500,
+                },
             }
 
             local input = ClientInput.InputDialog(heading, rows)
-            if not input then return end
+            if not input then
+                return
+            end
 
             speech.talk(tostring(input[1]), data.coords or data.entity)
         end,
@@ -69,7 +70,7 @@ local function targetOptions()
         label = locale('change_ai_character'),
         icon = icons.select,
         openMenu = 'character_select',
-        distance = interactDistance
+        distance = interactDistance,
     })
 
     if Characters then
@@ -84,7 +85,7 @@ local function targetOptions()
                 onSelect = function(data)
                     TriggerEvent(resourceName .. ':client:setAI', char, data.coords or data.entity)
                 end,
-                distance = interactDistance
+                distance = interactDistance,
             })
         end
     end
@@ -94,7 +95,7 @@ local function targetOptions()
         label = locale('change_addressal'),
         icon = icons.addressal,
         openMenu = 'addressal_select',
-        distance = interactDistance
+        distance = interactDistance,
     })
 
     if Addressals then
@@ -109,7 +110,7 @@ local function targetOptions()
                 onSelect = function(data)
                     TriggerEvent(resourceName .. ':client:setAddressal', addr, data.coords or data.entity)
                 end,
-                distance = interactDistance
+                distance = interactDistance,
             })
         end
     end
@@ -121,7 +122,7 @@ local function targetOptions()
         onSelect = function(data)
             speech.playRandomLine(data.coords or data.entity)
         end,
-        distance = interactDistance
+        distance = interactDistance,
     })
 
     return options
@@ -136,7 +137,7 @@ local function initSphereZones()
             coords = target.coords,
             radius = target.radius,
             debug = target.debug or false,
-            options = targetOptions()
+            options = targetOptions(),
         }
 
         ClientTarget.AddSphereZone(sphere)
@@ -153,7 +154,7 @@ local function initBoxZones()
             size = target.size,
             rotation = target.rotation,
             debug = target.debug or false,
-            options = targetOptions()
+            options = targetOptions(),
         }
 
         ClientTarget.AddBoxZone(box)
@@ -202,5 +203,5 @@ return {
     initSphereZones = initSphereZones,
     initBoxZones = initBoxZones,
     initTargetModels = initTargetModels,
-    updateTargets = updateTargets
+    updateTargets = updateTargets,
 }

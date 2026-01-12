@@ -24,42 +24,42 @@ local DoesEntityExist = DoesEntityExist
 ---@param text string input text
 ---@return string text normalised text
 local function normaliseText(text)
-	text = lower(text)
-	text = gsub(text, '%?', ' questionmark ') -- because punctuation can be meaningful in some contexts
-	text = gsub(text, '[^%w%s\']', ' ')
-	text = gsub(text, '%s+', ' ')
-	text = gsub(text, '^%s+', '')
-	text = gsub(text, '%s+$', '')
-	return text
+    text = lower(text)
+    text = gsub(text, '%?', ' questionmark ') -- because punctuation can be meaningful in some contexts
+    text = gsub(text, '[^%w%s\']', ' ')
+    text = gsub(text, '%s+', ' ')
+    text = gsub(text, '^%s+', '')
+    text = gsub(text, '%s+$', '')
+    return text
 end
 
 ---Tokenises normalised text
 ---@param normalised string
 ---@return string[] tokens
 local function tokenise(normalised)
-	local tokens = {}
+    local tokens = {}
 
-	for term in gmatch(normalised, '%S+') do
-		term = gsub(term, '\'s$', '')
-		term = gsub(term, '\'$', '')
+    for term in gmatch(normalised, '%S+') do
+        term = gsub(term, '\'s$', '')
+        term = gsub(term, '\'$', '')
 
-		if #term > 1 and not sharedConfig.nlp.stopwords[term] then
-			tokens[#tokens + 1] = term
-		end
-	end
+        if #term > 1 and not sharedConfig.nlp.stopwords[term] then
+        	tokens[#tokens + 1] = term
+        end
+    end
 
-	return tokens
+    return tokens
 end
 
 ---Counts term frequencies in token list
 ---@param tokens string[]
 ---@return table<Term, integer> counts
 local function countTerms(tokens)
-	local counts = {}
-	for _, term in ipairs(tokens) do
-		counts[term] = (counts[term] or 0) + 1
-	end
-	return counts
+    local counts = {}
+    for _, term in ipairs(tokens) do
+    	counts[term] = (counts[term] or 0) + 1
+    end
+    return counts
 end
 
 ---Capitalise first letter of a string and lowercases the rest
@@ -74,25 +74,27 @@ end
 ---@param b table<Term, number>
 ---@return number dotProduct
 local function dotProduct(a, b)
-	local sum = 0.0
-	for term, wa in pairs(a) do
-		local wb = b[term]
-		if wb then
-			sum = sum + wa * wb
-		end
-	end
-	return sum
+    local sum = 0.0
+    for term, wa in pairs(a) do
+    	local wb = b[term]
+    	if wb then
+    		sum = sum + wa * wb
+    	end
+    end
+
+    return sum
 end
 
 ---Calculates the Euclidean norm of a vector
 ---@param vec table<Term, number>
 ---@return number norm Euclidean norm
 local function vectorNorm(vec)
-	local sum = 0.0
-	for _, w in pairs(vec) do
-		sum = sum + (w * w)
-	end
-	return sqrt(sum)
+    local sum = 0.0
+    for _, w in pairs(vec) do
+    	sum = sum + (w * w)
+    end
+
+    return sqrt(sum)
 end
 
 ---Calculates the cosine similarity between two vectors
@@ -102,8 +104,8 @@ end
 ---@param normB number
 ---@return number similarity cosine similarity
 local function cosineSimilarity(a, normA, b, normB)
-	if normA == 0 or normB == 0 then return 0.0 end
-	return dotProduct(a, b) / (normA * normB)
+    if normA == 0 or normB == 0 then return 0.0 end
+    return dotProduct(a, b) / (normA * normB)
 end
 
 ---Check if a value is a vector3
@@ -125,7 +127,7 @@ end
 ---@return boolean isOffset True if the value is an offset table {x, y, z}
 local function isOffset(v)
     return type(v) == 'table' and
-           type(v[1]) == 'number' and type(v[2]) == 'number' and type(v[3]) == 'number'
+            type(v[1]) == 'number' and type(v[2]) == 'number' and type(v[3]) == 'number'
 end
 
 ---Get coords offset from player based on heading
