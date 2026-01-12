@@ -17,6 +17,8 @@ local SetModelAsNoLongerNeeded = SetModelAsNoLongerNeeded
 local DeleteEntity = DeleteEntity
 local SetEntityVisible = SetEntityVisible
 local SetEntityAlpha = SetEntityAlpha
+local GetInvokingResource = GetInvokingResource
+local GetCurrentResourceName = GetCurrentResourceName
 
 -- Types -----------------------------------------------------
 ---@class CPoint
