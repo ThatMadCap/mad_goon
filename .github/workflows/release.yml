@@ -56,12 +56,7 @@ jobs:
           ls
           mkdir -p ./temp/mad_goon
           cp LICENSE.md README.md fxmanifest.lua ./temp/mad_goon/ || true
-          for d in bridge client server config data modules locales docs; do
-            if [ -d "$d" ]; then
-              cp -r "$d" ./temp/mad_goon/
-            fi
-          done
-          find ./temp -type d -empty -delete
+          cp -r ./{bridge,client,server,config,data,modules,locales,docs} ./temp/mad_goon
           cd ./temp && zip -r ../mad_goon.zip ./mad_goon
 
       - name: Create Release
