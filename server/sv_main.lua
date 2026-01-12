@@ -9,6 +9,7 @@ local logs = lib.require('modules.server.logs')
 -- Localised Functions ----------------------------------------------
 local AddEventHandler = AddEventHandler
 local GetCurrentResourceName = GetCurrentResourceName
+local TriggerClientEvent = TriggerClientEvent
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
@@ -65,7 +66,7 @@ lib.versionCheck('ThatMadCap/mad_goon')
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 

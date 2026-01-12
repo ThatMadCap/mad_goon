@@ -2,6 +2,7 @@
 local string = string
 local lower = string.lower
 local pairs = pairs
+local exports = exports
 
 -- Types --------------------------------------------------------
 

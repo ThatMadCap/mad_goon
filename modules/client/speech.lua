@@ -12,6 +12,7 @@ local type = type
 local GetEntityCoords = GetEntityCoords
 local vector3 = vector3
 local PlayAmbientSpeechFromPositionNative = PlayAmbientSpeechFromPositionNative
+local exports = exports
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
@@ -164,7 +165,7 @@ local function playSpeech(speechName, character, addressal, isNetworked, locatio
 end
 
 ---Play voice response for an intent/topic
----@param data table Data containing speechName, topic, location
+---@param data SpeechData
 local function playResponse(data, message)
     if not data.speechName then
         return

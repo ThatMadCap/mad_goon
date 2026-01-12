@@ -182,7 +182,7 @@ end
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onClientResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 
@@ -190,7 +190,7 @@ AddEventHandler('onClientResourceStart', function(resName)
 end)
 
 AddEventHandler('onResourceStop', function(resName)
-    if GetCurrentResourceName() ~= resName then
+    if resourceName ~= resName then
         return
     end
 
