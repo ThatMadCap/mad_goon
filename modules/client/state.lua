@@ -71,14 +71,11 @@ local function setCharacter(character)
         return false
     end
 
-    if not constants.isValidCharacter(character) then
-        return false
-    end
-
     local normalised = normaliseCharacterName(character)
     local theme = utils.getTheme('characters', normalised)
 
-    if not normalised then
+    if type(character) ~= 'string' or not constants.isValidCharacter(character) or not normalised then
+        lib.print.warn('verifySpeechInput: invalid character name: ' .. tostring(character))
         ClientNotify.Notify({
             title = locale('ai_selection'),
             description = locale('invalid_ai_character', character),
@@ -112,17 +109,14 @@ local function setAddressal(addressal)
         return false
     end
 
-    if not constants.isValidAddressal(addressal) then
-        return false
-    end
-
     local normalised = normaliseAddressal(addressal)
     local addrTheme = utils.getTheme('addressals', normalised)
 
-    if not normalised then
+    if type(addressal) ~= 'string' or not constants.isValidAddressal(addressal) or not normalised then
+        lib.print.warn('verifySpeechInput: invalid addressal: ' .. tostring(addressal))
         ClientNotify.Notify({
             title = locale('addressal_selection'),
-            description = locale('invalid_addressal_choice'),
+            description = locale('invalid_addressal_choice', addressal),
             icon = addrTheme.icon,
             iconColor = addrTheme.colour,
             type = 'error',

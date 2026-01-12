@@ -139,12 +139,6 @@ end
 ---@param isNetworked boolean Whether to play for nearby players
 ---@param location? LocationInput Optional location for speech playback
 local function playSpeech(speechName, character, addressal, isNetworked, location)
-    assert(type(speechName) == 'string', 'speechName must be a string')
-    assert(type(character) == 'string', 'character must be a string')
-    assert(constants.isValidCharacter(character), 'invalid character name: ' .. tostring(character))
-    assert(type(addressal) == 'string', 'addressal must be a string')
-    assert(constants.isValidAddressal(addressal), 'invalid addressal: ' .. tostring(addressal))
-
     local baseName = getBaseSpeechName(speechName)
     local finalName = resolveSpeechName(baseName, addressal)
     local voiceName = constants.getVoiceName(character)

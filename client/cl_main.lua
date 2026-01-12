@@ -43,7 +43,11 @@ RegisterNetEvent(resourceName .. ':client:setAI', function(character, location)
         return
     end
 
-    state.setCharacter(character)
+    local success = state.setCharacter(character)
+    if not success then
+        return
+    end
+
     speech.playSpeech('XM25_GENERIC_HI', character, state.getAddressal(), location)
     target.updateTargets()
     object.updateObjectForCharacter(character)
@@ -55,7 +59,11 @@ RegisterNetEvent(resourceName .. ':client:setAddressal', function(addressal, loc
         return
     end
 
-    state.setAddressal(addressal)
+    local success = state.setAddressal(addressal)
+    if not success then
+        return
+    end
+
     speech.playSpeech('XM25_GENERIC_POSITIVE', state.getCharacter(), addressal, location)
 end)
 
