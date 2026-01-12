@@ -44,7 +44,7 @@ return {
             distance = 15.0,
         },
         {
-            id = 'von_crasteburg_07',
+            id = 'von_crasteburg_06',
             model = 'm25_2_prop_m52_mansiontv_angelai',
             coords = vector3(449.30, 210.89, 102.80),
             heading = 160.0,
@@ -61,7 +61,7 @@ return {
 
     -- Target Settings -------------------------------------
     targets = {
-        distance = 2.5, -- Interaction distance
+        distance = 2.5,            -- Interaction distance
         showMenuInTargets = false, -- Show menu option in target interactions
 
         -- Global target models
