@@ -127,23 +127,22 @@ local function talk(source, message, isNetworked, location)
     end
 
     local clientState = lib.callback.await(resourceName .. ':client:getState', source)
-    local genderTarget = clientState?.isMale and 'male' or 'female'
     local clientHour = clientState?.hour
 
     local res = nlp.classifyToTopic(input)
+    local genderTarget = clientState?.isMale and 'male' or 'female'
     local timeContext = getTimeContext(clientHour)
-
     local bestBucket, highestFinalScore = pickBestBucket(res.scores, voiceLines.speech_buckets, genderTarget, timeContext)
-    local minScoreThreshold = sharedConfig.nlp.thresholds.score.minimum
 
+    local minScoreThreshold = sharedConfig.nlp.thresholds.score.minimum
     local isFallback = (highestFinalScore < minScoreThreshold)
-    local topic = res.topic
 
     if not bestBucket or isFallback then
         bestBucket = (genderTarget == 'male') and 'XM25_GENERIC_NEGATIVE_MALE' or 'XM25_GENERIC_NEGATIVE_FEMALE'
         lib.print.debug(format('Fallback triggered for: "%s" (Score: %.2f)', input, highestFinalScore))
     end
 
+    local topic = res.topic
     TriggerClientEvent(resourceName .. ':client:playVoice', source, {
         topic = topic,
         speechName = bestBucket,
