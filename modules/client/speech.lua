@@ -172,7 +172,7 @@ end
 
 ---Play voice response for an intent/topic
 ---@param data table Data containing speechName, topic, location
-local function playResponse(data)
+local function playResponse(data, message)
     if not data.speechName then
         return
     end
@@ -189,7 +189,7 @@ local function playResponse(data)
             'AI: "%s" | Responding to: "%s" | Message: "%s" | Topic: "%s"',
             utils.capital(currentCharacter),
             utils.capital(currentAddressal),
-            data.message,
+            message or 'no message',
             utils.capital(data.topic)
         )
     )

@@ -147,10 +147,9 @@ local function talk(source, message, isNetworked, location)
     TriggerClientEvent(resourceName .. ':client:playVoice', source, {
         topic = topic,
         speechName = bestBucket,
-        message = message,
         isNetworked = isNetworked,
         location = location,
-    })
+    }, message)
 
     if serverConfig.logs.talk.enabled then
         logs.talk(source, message)

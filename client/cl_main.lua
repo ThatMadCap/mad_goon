@@ -28,12 +28,12 @@ local resourceName = GetCurrentResourceName()
 
 -- Event Registration ------------------------------------------------
 -- Handles playing voice response
-RegisterNetEvent(resourceName .. ':client:playVoice', function(data)
+RegisterNetEvent(resourceName .. ':client:playVoice', function(data, message)
     if not data then
         return
     end
 
-    speech.playResponse(data)
+    speech.playResponse(data, message)
 end)
 
 -- Handles setting character
