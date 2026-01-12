@@ -61,7 +61,7 @@ return {
 
     -- Target Settings -------------------------------------
     targets = {
-        distance = 2.5,            -- Interaction distance
+        distance = 2.5, -- Interaction distance
         showMenuInTargets = false, -- Show menu option in target interactions
 
         -- Global target models
