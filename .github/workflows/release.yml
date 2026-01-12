@@ -19,6 +19,18 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.repository.default_branch }}
 
+      - name: Format code with Prettier
+        run: |
+          npm install -g prettier
+          npx prettier --write "**/*.{js,json,md}"
+
+      - name: Format Lua with StyLua
+        uses: JohnnyMorganz/stylua-action@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          args: .
+
       - name: Bump manifest version
         run: node .github/actions/bump-manifest-version.js
         env:
