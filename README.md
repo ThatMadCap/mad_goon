@@ -46,15 +46,10 @@
 ## Preview
 
 <p align="center">
-  YouTube
   <br/>
   <a href="https://youtu.be/tGrN4xZw3c4" target="_blank">
     <img src="https://img.youtube.com/vi/tGrN4xZw3c4/0.jpg" alt="YouTube Preview"/>
   </a>
-  <br/>
-  <a href="https://youtu.be/tGrN4xZw3c4" target="_blank">Watch the Preview Video</a>
-  <br/>
-  Screenshots
   <br/>
   <img src="https://github.com/user-attachments/assets/44121da2-c25e-4377-8717-41ad9b27652e" width="16%" />
   <img src="https://github.com/user-attachments/assets/b8a806b8-f790-4fc1-ba5e-ebdf2a33f672" width="16%" />
