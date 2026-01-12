@@ -95,7 +95,7 @@ Interact with the AI in various ways:
 | Method       | Requirements                                          |
 | ------------ | ----------------------------------------------------- |
 | **Target**   | [ox_target](https://github.com/communityox/ox_target) |
-| **Menu**     | [ox_lib](https://github.com/CommunityOx/ox_lib)       |
+| **Menu**     | [ox_lib](https://github.com/communityox/ox_lib)       |
 | **Commands** | Built-in                                              |
 
 All methods allow you to:
@@ -117,7 +117,7 @@ All methods allow you to:
 
 ## Dependencies
 
-- [ox_lib](https://github.com/CommunityOx/ox_lib)
+- [ox_lib](https://github.com/communityox/ox_lib)
 - Game Build **3717+**
 - _Optional: [ox_target](https://github.com/communityox/ox_target)_
 
@@ -168,9 +168,9 @@ Replace `en` with your desired language. Refer to [ISO 639](https://en.wikipedia
 
 The resource uses a modular bridge system for compatibility:
 
-- **Notification Bridge**: [ox_lib](https://github.com/CommunityOx/ox_lib), [qb-core](https://github.com/qbcore-framework/qb-core), [mad-thoughts](https://madcap-scripts.tebex.io/package/mad-thoughts), custom
+- **Notification Bridge**: [ox_lib](https://github.com/communityox/ox_lib), [qb-core](https://github.com/qbcore-framework/qb-core), [mad-thoughts](https://madcap-scripts.tebex.io/package/mad-thoughts), custom
 - **Target Bridge:** [ox_target](https://github.com/communityox/ox_target), custom
-- **Menu Bridge:** [ox_lib](https://github.com/CommunityOx/ox_lib), custom
+- **Menu Bridge:** [ox_lib](https://github.com/communityox/ox_lib), custom
 
 All bridges auto-detect and load the appropriate implementation based on the active resources on your server. The notification and menu resources to use can be set in the client config. The bridge system is designed for easy expansion - custom bridges can be added to support other resources as needed.
 
