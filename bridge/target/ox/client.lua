@@ -44,7 +44,7 @@ function ClientTarget.AddBoxZone(data)
         rotation = data.rotation or 0,
         debug = data.debug or false,
         drawSprite = data.drawSprite or false,
-        options = options
+        options = options,
     })
 end
 
@@ -58,7 +58,7 @@ function ClientTarget.AddSphereZone(data)
         radius = data.radius or 2.0,
         debug = data.debug or false,
         drawSprite = data.drawSprite or false,
-        options = options
+        options = options,
     })
 end
 

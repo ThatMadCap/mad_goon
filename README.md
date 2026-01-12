@@ -97,13 +97,14 @@ It's what was cool before ChatGPT made everyone forget that maths could do this 
 
 Interact with the AI in various ways:
 
-| Method | Requirements |
-|--------|--------------|
-| **Target** | [ox_target](https://github.com/communityox/ox_target) |
-| **Menu** | [ox_lib](https://github.com/CommunityOx/ox_lib) |
-| **Commands** | Built-in |
+| Method       | Requirements                                          |
+| ------------ | ----------------------------------------------------- |
+| **Target**   | [ox_target](https://github.com/communityox/ox_target) |
+| **Menu**     | [ox_lib](https://github.com/CommunityOx/ox_lib)       |
+| **Commands** | Built-in                                              |
 
 All methods allow you to:
+
 - Send a message and get a response
 - Select the AI persona to use
 - Select your preferred addressal
@@ -111,19 +112,19 @@ All methods allow you to:
 
 ### Commands
 
-| Command | Description | Arguments |
-|---------|-------------|-----------|
-| `/ai_talk` | Talk to the AI | `message` |
-| `/ai_select` | Choose persona | `angel` / `haviland` / `og` |
-| `/ai_callme` | Set addressal | `male` / `female` |
-| `/ai_menu` | Open AI menu |
+| Command      | Description                      | Arguments                   |
+| ------------ | -------------------------------- | --------------------------- |
+| `/ai_talk`   | Talk to the AI                   | `message`                   |
+| `/ai_select` | Choose persona                   | `angel` / `haviland` / `og` |
+| `/ai_callme` | Set addressal                    | `male` / `female`           |
+| `/ai_menu`   | Open AI menu                     |
 | `/ai_random` | Play a random speech from the AI |
 
 ## Dependencies
 
 - [ox_lib](https://github.com/CommunityOx/ox_lib)
 - Game Build **3717+**
-- *Optional: [ox_target](https://github.com/communityox/ox_target)*
+- _Optional: [ox_target](https://github.com/communityox/ox_target)_
 
 ## Documentation
 

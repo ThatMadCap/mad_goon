@@ -1,10 +1,10 @@
 -- Imports ---------------------------------------------------------
-local nlp = lib.require 'modules.shared.nlp_tfidf'
-local cooldown = lib.require 'modules.server.cooldown'
-local commands = lib.require 'modules.server.commands'
-local speech = lib.require 'modules.server.speech'
-local serverConfig = lib.require 'config.server'
-local logs = lib.require 'modules.server.logs'
+local nlp = lib.require('modules.shared.nlp_tfidf')
+local cooldown = lib.require('modules.server.cooldown')
+local commands = lib.require('modules.server.commands')
+local speech = lib.require('modules.server.speech')
+local serverConfig = lib.require('config.server')
+local logs = lib.require('modules.server.logs')
 
 -- Localised Functions ----------------------------------------------
 local AddEventHandler = AddEventHandler
@@ -24,7 +24,10 @@ end)
 
 -- Callback for client-side talk
 lib.callback.register(resourceName .. ':server:talk', function(source, message, location)
-    if cooldown.isOnCooldown(source) then return false end
+    if cooldown.isOnCooldown(source) then
+        return false
+    end
+
     return speech.talk(source, message, location)
 end)
 
@@ -37,7 +40,9 @@ end)
 -- Broadcast speech to nearby players
 RegisterNetEvent(resourceName .. ':server:playSpeech')
 AddEventHandler(resourceName .. ':server:playSpeech', function(data)
-    if not serverConfig.sound.enableNetworked then return end
+    if not serverConfig.sound.enableNetworked then
+        return
+    end
 
     local src = source
     TriggerClientEvent(resourceName .. ':client:playSpeechAtLocation', -1, src, data)
@@ -45,8 +50,14 @@ end)
 
 -- Initialisation -----------------------------------------------------
 local function init()
-    if not nlp.isModelReady() then nlp.initNLP() end
-    lib.cron.new('* * * * *', function() logs.postLogs() end)
+    if not nlp.isModelReady() then
+        nlp.initNLP()
+    end
+
+    lib.cron.new('* * * * *', function()
+        logs.postLogs()
+    end)
+
     commands.initCommands()
 end
 
@@ -54,7 +65,10 @@ lib.versionCheck('ThatMadCap/mad_goon')
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then return end
+    if GetCurrentResourceName() ~= resName then
+        return
+    end
+
     init()
 end)
 

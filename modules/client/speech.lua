@@ -1,8 +1,8 @@
 -- Imports ---------------------------------------------------------
-local sharedConfig = lib.require 'config.shared'
-local constants = lib.require 'modules.shared.constants'
-local utils = lib.require 'modules.shared.utils'
-local state = lib.require 'modules.client.state'
+local sharedConfig = lib.require('config.shared')
+local constants = lib.require('modules.shared.constants')
+local utils = lib.require('modules.shared.utils')
+local state = lib.require('modules.client.state')
 
 -- Localised Functions ---------------------------------------------
 local string = string
@@ -38,11 +38,7 @@ local function resolveLocation(location)
     end
 
     if utils.isOffset(location) then
-        return vector3(
-            pedCoords.x + location[1],
-            pedCoords.y + location[2],
-            pedCoords.z + location[3]
-        )
+        return vector3(pedCoords.x + location[1], pedCoords.y + location[2], pedCoords.z + location[3])
     end
 
     local locationDistance = sharedConfig.sound.location.distance
@@ -65,6 +61,7 @@ local function resolveLocation(location)
     end
 
     lib.print.warn(format('Unknown location type: %s, using player coords', type(location)))
+
     return pedCoords
 end
 
@@ -106,25 +103,20 @@ local function resolveSpeechName(baseSpeechName, addressal)
 
     -- because R* uses _M/_F for these instead of _MALE/_FEMALE
     local useShortSuffix = (
-        baseSpeechName == 'XM25_REQUEST_LUXURY_VEH' or
-        baseSpeechName == 'XM25_VAULT_IDLE_BILLIONAIRE' or
-        baseSpeechName == 'XM25_VAULT_IDLE_MONEY_LOW' or
-        baseSpeechName == 'XM25_VAULT_IDLE_MONEY_HIGH' or
-        baseSpeechName == 'XM25_MANSION_DEFEND_COMPLETE'
+        baseSpeechName == 'XM25_REQUEST_LUXURY_VEH'
+        or baseSpeechName == 'XM25_VAULT_IDLE_BILLIONAIRE'
+        or baseSpeechName == 'XM25_VAULT_IDLE_MONEY_LOW'
+        or baseSpeechName == 'XM25_VAULT_IDLE_MONEY_HIGH'
+        or baseSpeechName == 'XM25_MANSION_DEFEND_COMPLETE'
     )
 
     -- because R* uses no gender variants for this
-    local noGenderSuffix = (
-        baseSpeechName == 'XM25_THROW_PARTY_IDLES'
-    )
-
+    local noGenderSuffix = (baseSpeechName == 'XM25_THROW_PARTY_IDLES')
     if noGenderSuffix then
         return baseSpeechName
     end
 
-    local suffix = useShortSuffix and
-                   ((addressal == 'female') and '_F' or '_M') or
-                   ((addressal == 'female') and '_FEMALE' or '_MALE')
+    local suffix = useShortSuffix and ((addressal == 'female') and '_F' or '_M') or ((addressal == 'female') and '_FEMALE' or '_MALE')
 
     return baseSpeechName .. suffix
 end
@@ -137,6 +129,7 @@ local function getBaseSpeechName(speechName)
     baseName = gsub(baseName, '_FEMALE$', '')
     baseName = gsub(baseName, '_M$', '')
     baseName = gsub(baseName, '_F$', '')
+
     return baseName
 end
 
@@ -158,18 +151,14 @@ local function playSpeech(speechName, character, addressal, location)
     local finalLocation = resolveLocation(location)
 
     -- this client
-    PlayAmbientSpeechFromPositionNative(
-        finalName, voiceName,
-        finalLocation.x, finalLocation.y, finalLocation.z,
-        constants.speechParams.default
-    )
+    PlayAmbientSpeechFromPositionNative(finalName, voiceName, finalLocation.x, finalLocation.y, finalLocation.z, constants.speechParams.default)
 
     -- nearby clients
     TriggerServerEvent(resourceName .. ':server:playSpeech', {
         speechName = finalName,
         voiceName = voiceName,
         location = finalLocation,
-        speechParams = constants.speechParams.default
+        speechParams = constants.speechParams.default,
     })
 
     lib.print.debug(format('Playing Speech: "%s" | Location: %s | Voice: "%s"', finalName, tostring(finalLocation), voiceName))
@@ -178,15 +167,26 @@ end
 ---Play voice response for an intent/topic
 ---@param data table Data containing speechName, topic, location
 local function playResponse(data)
-    if not data.speechName then return end
-    if not data.topic then data.topic = locale('unknown') end
+    if not data.speechName then
+        return
+    end
+
+    if not data.topic then
+        data.topic = locale('unknown')
+    end
 
     local currentCharacter = state.getCharacter()
     local currentAddressal = state.getAddressal()
 
-    lib.print.debug(format('AI: "%s" | Responding to: "%s" | Message: "%s" | Topic: "%s"',
-        utils.capital(currentCharacter), utils.capital(currentAddressal), data.message, utils.capital(data.topic)
-    ))
+    lib.print.debug(
+        format(
+            'AI: "%s" | Responding to: "%s" | Message: "%s" | Topic: "%s"',
+            utils.capital(currentCharacter),
+            utils.capital(currentAddressal),
+            data.message,
+            utils.capital(data.topic)
+        )
+    )
 
     local theme = utils.getTheme('characters', currentCharacter)
     ClientNotify.Notify({
@@ -195,7 +195,7 @@ local function playResponse(data)
         icon = theme.icon,
         iconColor = theme.colour,
         type = 'info',
-        duration = sharedConfig.notify.duration
+        duration = sharedConfig.notify.duration,
     })
 
     playSpeech(data.speechName, currentCharacter, currentAddressal, data.location)
@@ -212,6 +212,7 @@ local function talk(message, location)
     end
 
     local success = lib.callback.await(resourceName .. ':server:talk', false, message, location)
+
     return success or false
 end
 

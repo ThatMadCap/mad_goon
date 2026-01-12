@@ -1,10 +1,10 @@
 -- Imports ---------------------------------------------------------
-local sharedConfig = lib.require 'config.shared'
-local serverConfig = lib.require 'config.server'
-local utils = lib.require 'modules.shared.utils'
+local sharedConfig = lib.require('config.shared')
+local serverConfig = lib.require('config.server')
+local utils = lib.require('modules.shared.utils')
 
 -- Loads -----------------------------------------------------------
-local corpus = lib.loadJson 'data.topic_corpus'
+local corpus = lib.loadJson('data.topic_corpus')
 
 -- Localised Functions ----------------------------------------------
 local string = string
@@ -58,6 +58,7 @@ local function normaliseCorpusShape(cShape)
             out[topic] = doc
         end
     end
+
     return out
 end
 
@@ -67,34 +68,34 @@ end
 ---@return table<Term, number> idf inverse document frequency
 ---@return integer topicCount number of topics
 local function buildIdf(topicCorpus)
-	local df = {} ---@type table<Term, integer>
-	local topicCount = 0
+    local df = {} ---@type table<Term, integer>
+    local topicCount = 0
 
-	for _, docs in pairs(topicCorpus) do
-		topicCount = topicCount + 1
+    for _, docs in pairs(topicCorpus) do
+        topicCount = topicCount + 1
 
-		local seen = {} ---@type table<Term, boolean>
+        local seen = {} ---@type table<Term, boolean>
 
-		for _, doc in ipairs(docs) do
-			local tokens = utils.tokenise(utils.normaliseText(doc))
-			for _, term in ipairs(tokens) do
-				if not seen[term] then
-					seen[term] = true
-				end
-			end
-		end
+        for _, doc in ipairs(docs) do
+            local tokens = utils.tokenise(utils.normaliseText(doc))
+            for _, term in ipairs(tokens) do
+                if not seen[term] then
+                    seen[term] = true
+                end
+            end
+        end
 
-		for term, _ in pairs(seen) do
-			df[term] = (df[term] or 0) + 1
-		end
-	end
+        for term, _ in pairs(seen) do
+            df[term] = (df[term] or 0) + 1
+        end
+    end
 
-	local idf = {} ---@type table<Term, number>
-	for term, d in pairs(df) do
-		idf[term] = log((topicCount + 1) / (d + 1)) + 1
-	end
+    local idf = {} ---@type table<Term, number>
+    for term, d in pairs(df) do
+        idf[term] = log((topicCount + 1) / (d + 1)) + 1
+    end
 
-	return idf, topicCount
+    return idf, topicCount
 end
 
 ---Vectorises input text using TF-IDF
@@ -104,50 +105,52 @@ end
 ---@return number norm Euclidean norm of vector
 ---@return string[] tokens tokens extracted from text
 local function vectoriseText(idf, text)
-	local tokens = utils.tokenise(utils.normaliseText(text))
-	local counts = utils.countTerms(tokens)
+    local tokens = utils.tokenise(utils.normaliseText(text))
+    local counts = utils.countTerms(tokens)
 
-	local vec = {} ---@type table<Term, number>
-	for term, tf in pairs(counts) do
-		local termIdf = idf[term]
-		if termIdf then
-			vec[term] = tf * termIdf
-		end
-	end
+    local vec = {} ---@type table<Term, number>
+    for term, tf in pairs(counts) do
+        local termIdf = idf[term]
+        if termIdf then
+            vec[term] = tf * termIdf
+        end
+    end
 
-	return vec, utils.vectorNorm(vec), tokens
+    return vec, utils.vectorNorm(vec), tokens
 end
 
 ---Train the TF-IDF topic model
 ---@param topicCorpus table<TopicName, string[]> corpus
 ---@return TfIdfModel model the trained model
 local function trainTopicModel(topicCorpus)
-	local idf, topicCount = buildIdf(topicCorpus)
+    local idf, topicCount = buildIdf(topicCorpus)
 
-	local topicVectors = {} ---@type table<TopicName, table<Term, number>>
-	local topicNorms = {} ---@type table<TopicName, number>
+    local topicVectors = {} ---@type table<TopicName, table<Term, number>>
+    local topicNorms = {} ---@type table<TopicName, number>
 
-	for topic, docs in pairs(topicCorpus) do
-		local combined = concat(docs, ' ')
+    for topic, docs in pairs(topicCorpus) do
+        local combined = concat(docs, ' ')
 
-		local vec, norm = vectoriseText(idf, combined)
-		topicVectors[topic] = vec
-		topicNorms[topic] = norm
-	end
+        local vec, norm = vectoriseText(idf, combined)
+        topicVectors[topic] = vec
+        topicNorms[topic] = norm
+    end
 
-	local vocabCount = 0
-	for _ in pairs(idf) do vocabCount = vocabCount + 1 end
+    local vocabCount = 0
+    for _ in pairs(idf) do
+        vocabCount = vocabCount + 1
+    end
 
-	lib.print.info(format('Trained TF-IDF Model | Topics: %d | Vocab: %d', topicCount, vocabCount))
+    lib.print.info(format('Trained TF-IDF Model | Topics: %d | Vocab: %d', topicCount, vocabCount))
 
-	model = {
-		idf = idf,
-		topicVectors = topicVectors,
-		topicNorms = topicNorms,
-		topicCount = topicCount
-	}
+    model = {
+        idf = idf,
+        topicVectors = topicVectors,
+        topicNorms = topicNorms,
+        topicCount = topicCount,
+    }
 
-	return model
+    return model
 end
 
 -- Input ---------------------------------------------
@@ -155,78 +158,89 @@ end
 ---@param input string input text
 ---@return ClassificationResult|nil class the classification result
 local function classifyToTopic(input)
-	if not model then return nil end
-	local inputVec, inputNorm, tokens = vectoriseText(model.idf, input)
+    if not model then
+        return nil
+    end
 
-	local bestTopic ---@type TopicName|nil
-	local bestScore = 0.0
+    local inputVec, inputNorm, tokens = vectoriseText(model.idf, input)
 
-	local scores = {} ---@type table<TopicName, number>
+    local bestTopic ---@type TopicName|nil
+    local bestScore = 0.0
 
-	for topic, topicVec in pairs(model.topicVectors) do
-		local score = utils.cosineSimilarity(inputVec, inputNorm, topicVec, model.topicNorms[topic])
-		scores[topic] = score
+    local scores = {} ---@type table<TopicName, number>
 
-		if score > bestScore then
-			bestScore = score
-			bestTopic = topic
-		end
-	end
+    for topic, topicVec in pairs(model.topicVectors) do
+        local score = utils.cosineSimilarity(inputVec, inputNorm, topicVec, model.topicNorms[topic])
+        scores[topic] = score
 
-	local secondBestScore = 0.0
-	for topic, score in pairs(scores) do
-		if topic ~= bestTopic and score > secondBestScore then
-			secondBestScore = score
-		end
-	end
+        if score > bestScore then
+            bestScore = score
+            bestTopic = topic
+        end
+    end
 
-	local confidence = 0.0
-	if bestScore > 0 then
-		if secondBestScore > 0 then
-			confidence = lib.math.clamp((bestScore - secondBestScore) / bestScore, 0.0, 1.0)
-		else
-			confidence = 1.0
-		end
-	end
+    local secondBestScore = 0.0
+    for topic, score in pairs(scores) do
+        if topic ~= bestTopic and score > secondBestScore then
+            secondBestScore = score
+        end
+    end
 
-	local confidencePercent = lib.math.round(confidence * 100, 1)
+    local confidence = 0.0
+    if bestScore > 0 then
+        if secondBestScore > 0 then
+            confidence = lib.math.clamp((bestScore - secondBestScore) / bestScore, 0.0, 1.0)
+        else
+            confidence = 1.0
+        end
+    end
 
-	local displayInput = gsub(tostring(input), '%s+', ' ')
-	if #displayInput > 80 then
-		displayInput = sub(displayInput, 1, 77) .. '...'
-	end
+    local displayInput = gsub(tostring(input), '%s+', ' ')
+    if #displayInput > 80 then
+        displayInput = sub(displayInput, 1, 77) .. '...'
+    end
 
-	local bestTopicStr = bestTopic or 'nil'
+    local bestTopicStr = bestTopic or 'nil'
 
-	local topN = {}
-	do
-		local tmp = {}
-		for t, sc in pairs(scores) do
-			insert(tmp, { t = t, s = sc })
-		end
-		sort(tmp, function(a, b) return a.s > b.s end)
-		for i = 1, min(3, #tmp) do
-			insert(topN, format('%s:%.3f', tmp[i].t, tmp[i].s))
-		end
-	end
+    local topN = {}
+    do
+        local tmp = {}
+        for t, sc in pairs(scores) do
+            insert(tmp, { t = t, s = sc })
+        end
+        sort(tmp, function(a, b)
+            return a.s > b.s
+        end)
+        for i = 1, min(3, #tmp) do
+            insert(topN, format('%s:%.3f', tmp[i].t, tmp[i].s))
+        end
+    end
 
-	lib.print.debug(format(
-		'Classifying topic from input: \nInput: "%s" \nBest: %s \nScore: %.4f \nConfidence: %s%% \nTokens: %d \nTop: {%s}',
-		displayInput, bestTopicStr, bestScore, tostring(confidencePercent), #tokens, concat(topN, ', ')
-	))
+    local confidencePercent = lib.math.round(confidence * 100, 1)
+    lib.print.debug(
+        format(
+            'Classifying topic from input: \nInput: "%s" \nBest: %s \nScore: %.4f \nConfidence: %s%% \nTokens: %d \nTop: {%s}',
+            displayInput,
+            bestTopicStr,
+            bestScore,
+            tostring(confidencePercent),
+            #tokens,
+            concat(topN, ', ')
+        )
+    )
 
-	if confidence > 0 and confidence < sharedConfig.nlp.thresholds.confidence.low then
-		lib.print.debug(format('Low confidence (%.2f) for input: "%s"', confidence, input))
-	end
+    if confidence > 0 and confidence < sharedConfig.nlp.thresholds.confidence.low then
+        lib.print.debug(format('Low confidence (%.2f) for input: "%s"', confidence, input))
+    end
 
-	return {
-		topic = bestTopic,
-		score = bestScore,
-		confidence = confidence,
-		confidencePercent = confidencePercent,
-		scores = scores,
-		tokens = tokens
-	}
+    return {
+        topic = bestTopic,
+        score = bestScore,
+        confidence = confidence,
+        confidencePercent = confidencePercent,
+        scores = scores,
+        tokens = tokens,
+    }
 end
 
 ---Validate and sanitise input message
@@ -255,7 +269,9 @@ end
 ---@param input string Text to classify
 ---@return ClassificationResult|nil result
 local function classifyInput(input)
-    if not model then return nil end
+    if not model then
+        return nil
+    end
 
     local sanitised, err = validateInput(input)
     if not sanitised then
@@ -269,7 +285,7 @@ end
 ---Check if model is ready
 ---@return boolean isReady if model is trained
 local function isModelReady()
-	return model ~= nil
+    return model ~= nil
 end
 
 -- Initialisation ---------------------------------------------------
@@ -285,9 +301,9 @@ exports('classifyInput', classifyInput)
 
 -- Module Exports ------------------------------------------------
 return {
-	classifyToTopic = classifyToTopic,
-	trainTopicModel = trainTopicModel,
-	validateInput = validateInput,
-	isModelReady = isModelReady,
-	initNLP = initNLP,
+    classifyToTopic = classifyToTopic,
+    trainTopicModel = trainTopicModel,
+    validateInput = validateInput,
+    isModelReady = isModelReady,
+    initNLP = initNLP,
 }

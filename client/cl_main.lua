@@ -1,11 +1,11 @@
 -- Imports ---------------------------------------------------------
 lib.locale()
-local constants = lib.require 'modules.shared.constants'
-local clientConfig = lib.require 'config.client'
-local state = lib.require 'modules.client.state'
-local speech = lib.require 'modules.client.speech'
-local target = lib.require 'modules.client.target'
-local object = lib.require 'modules.client.object'
+local constants = lib.require('modules.shared.constants')
+local clientConfig = lib.require('config.client')
+local state = lib.require('modules.client.state')
+local speech = lib.require('modules.client.speech')
+local target = lib.require('modules.client.target')
+local object = lib.require('modules.client.object')
 
 -- Localised Functions ----------------------------------------------
 local string = string
@@ -29,13 +29,19 @@ local resourceName = GetCurrentResourceName()
 -- Event Registration ------------------------------------------------
 -- Handles playing voice response
 RegisterNetEvent(resourceName .. ':client:playVoice', function(data)
-    if not data then return end
+    if not data then
+        return
+    end
+
     speech.playResponse(data)
 end)
 
 -- Handles setting character
 RegisterNetEvent(resourceName .. ':client:setAI', function(character, location)
-    if not character then return end
+    if not character then
+        return
+    end
+
     state.setCharacter(character)
     speech.playSpeech('XM25_GENERIC_HI', character, state.getAddressal(), location)
     target.updateTargets()
@@ -44,7 +50,10 @@ end)
 
 -- Handles setting addressal
 RegisterNetEvent(resourceName .. ':client:setAddressal', function(addressal, location)
-    if not addressal then return end
+    if not addressal then
+        return
+    end
+
     state.setAddressal(addressal)
     speech.playSpeech('XM25_GENERIC_POSITIVE', state.getCharacter(), addressal, location)
 end)
@@ -56,15 +65,23 @@ end)
 
 -- Handles playing random speech line
 RegisterNetEvent(resourceName .. ':client:playRandomSpeech', function()
-    if source ~= 65535 then return end
+    if source ~= 65535 then
+        return
+    end
+
     speech.playRandomLine()
 end)
 
 -- Receive networked speech and play if within range
 RegisterNetEvent(resourceName .. ':client:playSpeechAtLocation')
 AddEventHandler(resourceName .. ':client:playSpeechAtLocation', function(sourcePlayer, data)
-    if source ~= 65535 then return end
-    if sourcePlayer == cache.serverId then return end
+    if source ~= 65535 then
+        return
+    end
+
+    if sourcePlayer == cache.serverId then
+        return
+    end
 
     local sourceCoords = data.location
     local playerCoords = GetEntityCoords(cache.ped)
@@ -72,11 +89,7 @@ AddEventHandler(resourceName .. ':client:playSpeechAtLocation', function(sourceP
     local maxDistance = 20.0
 
     if distance < maxDistance then
-        PlayAmbientSpeechFromPositionNative(
-            data.speechName, data.voiceName,
-            data.location.x, data.location.y, data.location.z,
-            data.speechParams
-        )
+        PlayAmbientSpeechFromPositionNative(data.speechName, data.voiceName, data.location.x, data.location.y, data.location.z, data.speechParams)
     end
 end)
 
@@ -114,8 +127,13 @@ end
 
 ---Initialise objects from config
 local function initObjects()
-    if not clientConfig.enableObjects then return end
-    if not clientConfig.objects then return end
+    if not clientConfig.enableObjects then
+        return
+    end
+
+    if not clientConfig.objects then
+        return
+    end
 
     for _, objConfig in ipairs(clientConfig.objects) do
         -- because we don't want to dupe target options
@@ -128,7 +146,10 @@ end
 
 ---Initialise targets
 local function initTargets()
-    if not TargetEnabled then return end
+    if not TargetEnabled then
+        return
+    end
+
     target.initSphereZones()
     target.initBoxZones()
     target.initTargetModels()
@@ -152,11 +173,17 @@ end
 
 -- Event Handlers --------------------------------------------------
 AddEventHandler('onClientResourceStart', function(resName)
-    if GetCurrentResourceName() ~= resName then return end
+    if GetCurrentResourceName() ~= resName then
+        return
+    end
+
     init()
 end)
 
 AddEventHandler('onResourceStop', function(resName)
-    if GetCurrentResourceName() ~= resName then return end
+    if GetCurrentResourceName() ~= resName then
+        return
+    end
+
     cleanup()
 end)

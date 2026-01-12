@@ -1,18 +1,23 @@
 -- Imports ---------------------------------------------------------
-local nlp = lib.require 'modules.shared.nlp_tfidf'
-local logs = lib.require 'modules.server.logs'
-local sharedConfig = lib.require 'config.shared'
-local serverConfig = lib.require 'config.server'
+local nlp = lib.require('modules.shared.nlp_tfidf')
+local logs = lib.require('modules.server.logs')
+local sharedConfig = lib.require('config.shared')
+local serverConfig = lib.require('config.server')
 
 -- Loads -----------------------------------------------------------
-local voiceLines = lib.loadJson 'data.voice_lines'
+local voiceLines = lib.loadJson('data.voice_lines')
 
 -- Localised Functions ----------------------------------------------
 local string = string
 local sub = string.sub
 local format = string.format
+local table = table
+local insert = table.insert
+local pairs = pairs
+local math = math
+local random = math.random
 local TriggerClientEvent = TriggerClientEvent
-local GetPlayerName = GetPlayerName
+local GetCurrentResourceName = GetCurrentResourceName
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
@@ -50,16 +55,21 @@ end
 ---@return string? speechName
 local function getRandomLine()
     local buckets = voiceLines.speech_buckets
-    if not buckets then return nil end
+    if not buckets then
+        return nil
+    end
 
     local speechNames = {}
     for name, _ in pairs(buckets) do
-        table.insert(speechNames, name)
+        insert(speechNames, name)
     end
 
-    if #speechNames == 0 then return nil end
+    if #speechNames == 0 then
+        return nil
+    end
 
-    local randomIndex = math.random(1, #speechNames)
+    local randomIndex = random(1, #speechNames)
+
     return speechNames[randomIndex]
 end
 
@@ -93,6 +103,7 @@ local function pickBestBucket(resScores, speechBuckets, genderTarget, timeContex
             end
         end
     end
+
     return bestBucket, highestFinalScore
 end
 
@@ -121,10 +132,7 @@ local function talk(source, message, location)
     local res = nlp.classifyToTopic(input)
     local timeContext = getTimeContext(clientHour)
 
-    local bestBucket, highestFinalScore = pickBestBucket(
-        res.scores, voiceLines.speech_buckets,
-        genderTarget, timeContext
-    )
+    local bestBucket, highestFinalScore = pickBestBucket(res.scores, voiceLines.speech_buckets, genderTarget, timeContext)
 
     local minScoreThreshold = sharedConfig.nlp.thresholds.score.minimum
     if not bestBucket or highestFinalScore < minScoreThreshold then
@@ -136,7 +144,7 @@ local function talk(source, message, location)
         topic = (highestFinalScore < minScoreThreshold) and 'fallback' or res.topic,
         speechName = bestBucket,
         message = message,
-        location = location
+        location = location,
     })
 
     if serverConfig.logs.talk.enabled then

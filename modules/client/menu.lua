@@ -1,9 +1,9 @@
 -- Imports ---------------------------------------------------------
-local constants = lib.require 'modules.shared.constants'
-local clientConfig = lib.require 'config.client'
-local state = lib.require 'modules.client.state'
-local utils = lib.require 'modules.shared.utils'
-local speech = lib.require 'modules.client.speech'
+local constants = lib.require('modules.shared.constants')
+local clientConfig = lib.require('config.client')
+local state = lib.require('modules.client.state')
+local utils = lib.require('modules.shared.utils')
+local speech = lib.require('modules.client.speech')
 
 -- Local Variables ----------------------------------------------
 local resourceName = GetCurrentResourceName()
@@ -28,7 +28,7 @@ local function buildCharacterOptions()
             onSelect = function()
                 TriggerEvent(resourceName .. ':client:setAI', character)
                 OpenMenu()
-            end
+            end,
         })
     end
 
@@ -48,7 +48,7 @@ local function buildAddressalOptions()
             onSelect = function()
                 TriggerEvent(resourceName .. ':client:setAddressal', addressalOption)
                 OpenMenu()
-            end
+            end,
         })
     end
 
@@ -57,13 +57,15 @@ end
 
 ---Registers submenus if not already registered
 local function ensureSubmenusRegistered()
-    if submenusRegistered then return end
+    if submenusRegistered then
+        return
+    end
 
     ClientMenu.Open({
         id = resourceName .. '_select_character',
         menu = resourceName .. '_main',
         title = locale('change_ai_character'),
-        options = buildCharacterOptions()
+        options = buildCharacterOptions(),
     })
     ClientMenu.Close()
 
@@ -71,7 +73,7 @@ local function ensureSubmenusRegistered()
         id = resourceName .. '_change_addressal',
         menu = resourceName .. '_main',
         title = locale('change_addressal'),
-        options = buildAddressalOptions()
+        options = buildAddressalOptions(),
     })
     ClientMenu.Close()
 
@@ -80,7 +82,9 @@ end
 
 ---Opens the AI interaction menu
 function OpenMenu()
-    if not MenuEnabled then return end
+    if not MenuEnabled then
+        return
+    end
 
     ensureSubmenusRegistered()
 
@@ -100,8 +104,8 @@ function OpenMenu()
                         label = locale('your_message'),
                         required = true,
                         min = 1,
-                        max = 200
-                    }
+                        max = 200,
+                    },
                 }
 
                 local input = ClientInput.InputDialog(heading, rows)
@@ -112,17 +116,17 @@ function OpenMenu()
 
                 speech.talk(tostring(input[1]))
                 OpenMenu()
-            end
+            end,
         },
         {
             title = locale('change_ai_character'),
             icon = icons.select,
-            menu = resourceName .. '_select_character'
+            menu = resourceName .. '_select_character',
         },
         {
             title = locale('change_addressal'),
             icon = icons.addressal,
-            menu = resourceName .. '_change_addressal'
+            menu = resourceName .. '_change_addressal',
         },
         {
             title = locale('get_random_comment', getName()),
@@ -130,14 +134,14 @@ function OpenMenu()
             onSelect = function()
                 speech.playRandomLine()
                 OpenMenu()
-            end
+            end,
         },
     }
 
     ClientMenu.Open({
         id = resourceName .. '_main',
         title = locale('menu_title', utils.capital(state.getCharacter()), getName()),
-        options = options
+        options = options,
     })
 end
 

@@ -8,15 +8,15 @@ return {
     -- Notification Settings ----------------------------------------
     notify = {
         type = 'ox_lib', -- Options: 'ox_lib', 'qb-core', 'mad-thoughts', 'custom'
-        duration = 5000 -- Duration for notifications (in milliseconds)
+        duration = 5000, -- Duration for notifications (in milliseconds)
     },
 
     -- Sound Settings -------------------------------------------
     sound = {
         location = {
             distance = 2.5, -- Default distance for directional locations
-            zOffset = 2.0 -- Default vertical offset for above/below
-        }
+            zOffset = 2.0, -- Default vertical offset for above/below
+        },
     },
 
     -- NLP Settings ------------------------------------------------
@@ -26,8 +26,8 @@ return {
                 low = 0.30, -- Below this is considered low confidence
             },
             score = {
-                minimum = 0.15 -- Lower = more 'guessing', Higher = more 'fallbacks'
-            }
+                minimum = 0.15, -- Lower = more 'guessing', Higher = more 'fallbacks'
+            },
         },
 
         -- Terms to ignore during NLP processing
@@ -49,7 +49,7 @@ return {
             ['we'] = true,
             ['on'] = true,
             ['for'] = true,
-            ['with'] = true
-        }
-    }
+            ['with'] = true,
+        },
+    },
 }
