@@ -18,7 +18,6 @@ local resourceName = GetCurrentResourceName()
 
 -- Functions --------------------------------------------------------
 ---Resolve location for speech playback
----@alias LocationInput nil|vector3|number|string|{x:number,y:number,z:number}|number[]
 ---@param location? LocationInput Location to resolve
 ---@return vector3 coords Resolved world coordinates
 local function resolveLocation(location)
@@ -137,8 +136,8 @@ end
 ---@param speechName string Base speech name
 ---@param character CharacterName Character voice to use
 ---@param addressal Addressal Player's addressal preference
----@param location? vector3|string|table Optional location for speech
 ---@param isNetworked boolean Whether to play for nearby players
+---@param location? LocationInput Optional location for speech playback
 local function playSpeech(speechName, character, addressal, isNetworked, location)
     assert(type(speechName) == 'string', 'speechName must be a string')
     assert(type(character) == 'string', 'character must be a string')

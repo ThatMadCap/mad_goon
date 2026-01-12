@@ -112,8 +112,8 @@ end
 ---Processes player input through NLP and triggers voice response (central talking point)
 ---@param source number Client source
 ---@param message string Message to process
----@param location? any Optional location data to pass to client
 ---@param isNetworked boolean Whether to play for nearby players
+---@param location? LocationInput Optional location data to pass to client
 ---@return boolean success
 local function talk(source, message, isNetworked, location)
     if not nlp.isModelReady() then

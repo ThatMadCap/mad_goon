@@ -28,6 +28,7 @@ local resourceName = GetCurrentResourceName()
 
 -- Event Registration ------------------------------------------------
 -- Handles playing voice response
+---@param data SpeechData
 RegisterNetEvent(resourceName .. ':client:playVoice', function(data, message)
     if not data then
         return

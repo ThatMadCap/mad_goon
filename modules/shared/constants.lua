@@ -4,42 +4,61 @@ local lower = string.lower
 local pairs = pairs
 
 -- Types --------------------------------------------------------
----@alias CharacterName 'angel'|'haviland'|'og'
----@alias Addressal 'male'|'female'
----@alias ModelName string
+
+---Available AI character names
+---@alias CharacterName
+---| 'angel' # Female secretary AI
+---| 'haviland' # Male butler AI
+---| 'og' # Male gang AI
+
+---Player addressal preference for gendered speech lines
+---@alias Addressal
+---| 'male' # Use male speech variants
+---| 'female' # Use female speech variants
+
+---@alias LocationInput nil|vector3|number|string|{x:number,y:number,z:number}|number[]
+
+---Data structure for speech playback
+---@class SpeechData
+---@field speechName string Base speech name (gender suffix auto-resolved)
+---@field character CharacterName AI character voice to use
+---@field addressal Addressal Player's gender preference for speech
+---@field isNetworked? boolean Whether to play for nearby players
+---@field location? LocationInput Optional location for speech playback
 
 -- Constants ----------------------------------------------------
----Valid AI character names
----@type table<CharacterName, boolean>
+
+---Valid AI character names for validation
+---@enum ValidCharacters
 local validCharacters = {
-    ['angel'] = true,
-    ['haviland'] = true,
-    ['og'] = true,
+    angel = true,
+    haviland = true,
+    og = true,
 }
 
----Valid addressal options
----@type table<Addressal, boolean>
+---Valid addressal options for validation
+---@enum ValidAddressals
 local validAddressals = {
-    ['male'] = true,
-    ['female'] = true,
+    male = true,
+    female = true,
 }
 
----Character to voice name mapping
----@type table<CharacterName, string>
+---Character to GTA voice name mapping
+---@enum CharacterVoices
 local characterVoices = {
-    ['angel'] = 'XM25_AISECRETARY',
-    ['haviland'] = 'XM25_AIBUTLER',
-    ['og'] = 'XM25_AIGANG',
+    angel = 'XM25_AISECRETARY',
+    haviland = 'XM25_AIBUTLER',
+    og = 'XM25_AIGANG',
 }
 
----Speech parameters
----@type table<string, string>
+---Speech parameters for native calls
+---@enum SpeechParams
 local speechParams = {
     default = 'SPEECH_PARAMS_FORCE',
 }
 
----Character tablet model mappings
----@type table<CharacterName|'blank', string>
+---Character tablet prop model mappings
+---@enum CharacterTabletModels
 local characterTabletModels = {
     blank = 'm25_2_prop_m52_aitablet',
     og = 'm25_2_prop_m52_aitablet_01a',
@@ -47,8 +66,8 @@ local characterTabletModels = {
     angel = 'm25_2_prop_m52_aitablet_03a',
 }
 
----Character TV model mappings
----@type table<CharacterName, string>
+---Character TV prop model mappings
+---@enum CharacterTVModels
 local characterTVModels = {
     og = 'm25_2_prop_m52_mansiontv_ogai',
     haviland = 'm25_2_prop_m52_mansiontv_havilandai',
