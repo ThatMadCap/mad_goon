@@ -10,9 +10,12 @@ local logs = lib.require('modules.server.logs')
 local string = string
 local gsub = string.gsub
 local match = string.match
+local assert = assert
 local GetCurrentResourceName = GetCurrentResourceName
 local TriggerClientEvent = TriggerClientEvent
 local GetResourceMetadata = GetResourceMetadata
+local RegisterNetEvent = RegisterNetEvent
+local GetResourceState = GetResourceState
 local AddEventHandler = AddEventHandler
 
 -- Local Variables ----------------------------------------------
@@ -98,6 +101,8 @@ end)
 
 -- Initialisation -----------------------------------------------------
 local function init()
+    assert(GetResourceState('ox_lib') == 'started', 'ox_lib is not started. Please ensure ox_lib is installed and started before ' .. resourceName)
+
     versionCheck()
     checkResourceMeta()
 
